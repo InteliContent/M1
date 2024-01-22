@@ -343,7 +343,7 @@ Os navegadores web contêm interpretadores JavaScript incorporados que são resp
 
 Como na imagem a seguir, experimente testar algumas operações. Ao digitar ``5 + 3`` o console retorna ``8``.
 
-<img src="assets/nav_operacao.jpg" alt="JS no console do navegador - parte 1" style="width:80%"/>
+<img src="assets/nav_operacao.jpg" alt="JS no console do navegador - parte 1" style="width:80%"/> 
 
 <p>
 
