@@ -246,13 +246,13 @@ Para fazer a instalação do VSCode, visite a [página de download](https://code
 **Explorando o VSCode**
 
 
-<img src="./assets/vsc-welcome.jpg" alt="VSCode Welcome" style="width:70%"/>  
+<img src="assets/vsc-welcome.jpg" alt="VSCode Welcome" style="width:60%"/>  
 
 <p>
 
 Se você preferir uma interface escura, no menu superior escolha outro tema em: ``File > Preferences > Theme > Color Theme``  
 
-<img src="assets/vsc-welcome-dark.jpg" alt="VSCode Dark Mode" style="width:70%"/>  
+<img src="assets/vsc-welcome-dark.jpg" alt="VSCode Dark Mode" style="width:60%"/>  
 
 <p>
 
@@ -301,7 +301,7 @@ Se em uma **calculadora** podemos teclar ``3 + 5`` e depois optar pelo botão ``
 
 Para realizar uma operação em JavaScript precisamos criar (ou declarar) uma variável e atribuir a ela um *valor*.  Na imagem a seguir podemos ver diversos tipos de *valores* que podem ser atribuidos a uma variável, o que inclui de um cálculo como ``3 + 5`` até uma ``'frase que pode ser bem longa'`` (existe um outro autoestudo da semana 1 com o tema "Tipos de dados em JS", não deixe de fazer!).  
 
-<img src="assets/js_let-var.jpg" alt="Variáveis JavaScript" style="width:60%"/>  
+<img src="assets/js_let-var.jpg" alt="Variáveis JavaScript" style="width:50%"/>  
 
 <p>
 
@@ -309,7 +309,7 @@ Podemos entender uma variável como uma espécie de "gaveta". Dentro dela podemo
 
 **Você consegue descobrir qual seria o valor de ``armario``?**
 
-<img src="assets/js_let-arm.jpg" alt="Variáveis JavaScript" style="width:60%"/>  
+<img src="assets/js_let-arm.jpg" alt="Variáveis JavaScript" style="width:50%"/>  
 
 <p>
 
