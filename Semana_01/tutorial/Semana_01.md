@@ -15,19 +15,19 @@ Esperamos que você esteja animada(o) para começar!
 
 #### Conteúdos:
 
-**[:black_small_square:	 Parte 1 | Introdução](#Introdução)**  
+**[:black_small_square:	 Introdução](#purple_square-introdução)**  
 
 Sobre o contexto de computação no módulo 1 - nossos objetivos, atividades e projetos (faremos um projeto extra e individual!). 
 
-**[:black_small_square:	Parte 2 | Ferramentas e Conceitos](#Ferramentas)**
+**[:black_small_square:	 Ferramentas e Conceitos](#purple_square-ferramentas)**
 > :warning: Nessa parte 2 você precisará fazer algumas instalações!  
 
 Instruções de instalação das ferramentas que usaremos no módulo, apresentação de alguns conceitos e algumas propostas de explorações iniciais com código e ambientes de programação.  
 
-**[:black_small_square:	Parte 3 | Autoestudo Ponderado](#projeto-individual-parte-1):** Exercício do Peixe
+**[:black_small_square:	 Projeto Individual (parte 1)](#projeto-individual-parte-1):** Exercício do Peixe
 > :warning: Essa entrega é obrigatória, ponderada e individual!
 
-Exercitando as tecnologias a serem utilizadas no módulo: introdução ao Phaser. Realização de um exercício usando JavaScript, Phaser, HTML e Live Server. O resultado deve ser publicado no GitHub Individual e o link deve ser enviado pela Adalove.
+Exercitando as tecnologias a serem utilizadas no módulo: introdução ao Phaser. Realização de um exercício usando JavaScript, Phaser, HTML e Live Server. O resultado deve ser publicado no GitHub Individual e o link deve ser enviado pela Adalove. [REVER!]
 
 
 <br>
@@ -59,7 +59,7 @@ Nesse contexto de computação, realizaremos instalações de programas, executa
 
 ### :white_medium_square:	Computação no Módulo 1: Desenvolvendo Jogos  
 
-No módulo 1 desenvolveremos jogos digitais para navegador utilizando a linguagem de programação JavaScript e o framework de jogos Phaser (mais informações em [Ferramentas do Módulo](#Ferramentas)). Além da linguagem JavaScript, estudaremos também lógica de programação. Utilizaremos o ambiente de programação VSCode para escrever nossos códigos e a extensão do VSCode 'Live Server' para executá-los em nossos navegadores. Em todas as entregas utilizaremos repositórios no GitHub.  
+No módulo 1 desenvolveremos jogos digitais para navegador utilizando a linguagem de programação JavaScript e o framework de jogos Phaser (mais informações em [Ferramentas do Módulo](#purple_square-ferramentas)). Além da linguagem JavaScript, estudaremos também lógica de programação. Utilizaremos o ambiente de programação VSCode para escrever nossos códigos e a extensão do VSCode 'Live Server' para executá-los em nossos navegadores. Em todas as entregas utilizaremos repositórios no GitHub.  
 
 <br>
 
@@ -107,7 +107,7 @@ Os Tutoriais estão disponíveis tanto nos cards da [Adalove](https://adalove.in
 
 [REVER!]
 
-Os cards de Autoestudos Ponderados estão disponíveis na Adalove. Vocês deverão inserir as tarefas realizadas em seus *GitHubs Individuais* e enviar no campo de resposta do card o link do repositório e/ou do GitHub Pages (ver [Ferramentas do Módulo](#Ferramentas) para mais informações sobre GitHub e GitHub Pages). Vocês encontrarão dois tipos de Autoestudos Ponderados: Listas de Exercício e Projeto Individual (partes 1 a 3). Os dois tipos devem ser entregues via GitHub Individual.  
+Os cards de Autoestudos Ponderados estão disponíveis na Adalove. Vocês deverão inserir as tarefas realizadas em seus *GitHubs Individuais* e enviar no campo de resposta do card o link do repositório e/ou do GitHub Pages (ver [Ferramentas do Módulo](#purple_square-ferramentas) para mais informações sobre GitHub e GitHub Pages). Vocês encontrarão dois tipos de Autoestudos Ponderados: Listas de Exercício e Projeto Individual (partes 1 a 3). Os dois tipos devem ser entregues via GitHub Individual.  
 
 A cada semana os autoestudos introduzirão novos conceitos, métodos e ferramentas que apoiarão o desenvolvimento dos projetos individuais e do projeto em grupo. 
 
@@ -154,7 +154,6 @@ Antes de começar a programar os nossos projetos, precisaremos fazer alguns down
 <br>
 
 #### :white_medium_square: O que é 'Programação'?
-> criar pasta para guardar seus códigos
 
 Programar é o processo de criar conjuntos de instruções para que um computador execute tarefas específicas, permitindo a automação de processos e o desenvolvimento de softwares ou programas. 
 
@@ -170,7 +169,7 @@ Em breve vocês perceberão que precisaremos criar e gerenciar diversos arquivos
 
 #### :white_medium_square: O que é 'Desenvolvimento Web'?
 
-Desenvolver para web envolve a criar aplicativos ou sites para a internet, incorporando design e programação, estruturando arquiteturas e acessando bases de dados e arquivos através de servidores. Nos autoestudos na [Adalove](https://adalove.inteli.edu.br/) estão indicados dois vídeos que abordam as tecnologias usadas no desenvolvimento web, a estrutura cliente-servidor e a WWW. Não deixe de realizar esses autoestudos!  
+Desenvolver para web envolve a criar aplicativos ou sites para a internet, incorporando design e programação, estruturando arquiteturas e acessando bases de dados e arquivos através de servidores. Nos autoestudos na [Adalove](https://adalove.inteli.edu.br/) estão indicados dois vídeos que abordam as tecnologias usadas no desenvolvimento web, a estrutura cliente-servidor e a ``WWW``. Não deixe de realizar esses autoestudos!  
 
 Usaremos a programação para desenvolver jogos para navegadores. Usaremos o GitHub Pages para publicar e hospedar os sites com nossos jogos. Os jogos serão desenvolvidos com JavaScript e Phaser e os sites serão construídos com JavaScript, HTML e CSS.
 
@@ -185,7 +184,7 @@ Nos autoestudos na [Adalove](https://adalove.inteli.edu.br/) estão indicados v�
 <br>
 
 #### :white_medium_square: Phaser  
-> **Aqui precisamos fazer o download de um arquivo!**  
+> **Faça download do arquivo ``phaser.js``!**  
 
 <br>
 
@@ -200,12 +199,14 @@ Um dos [autoestudos](https://adalove.inteli.edu.br/) dessa semana aborda justame
 
 <br>
 
-:warning: **Atenção!** Na página do Phaser, na aba [Learn](https://phaser.io/learn), vocês encontrarão um item *"Getting Started"* que demonstra diversas opções para utilização do framework Phaser. **Não usaremos as instruções do Phaser. Siga as instruções descritas aqui!**  Esta parte do Tutorial que você está lendo agora substitui os "passos iniciais" descritos na página do Phaser.  
+> :warning: **Atenção!** Na página do Phaser, na aba ``learn``, vocês encontrarão um item *"Getting Started"* que demonstra diversas opções para utilização do framework Phaser. **Não seguiremos essas instruções do Phaser. Siga as instruções descritas aqui!**  Essa próxima parte do Tutorial substitui os "passos iniciais" descritos na página do Phaser.  
 
 <img src="assets/ph3_learn.jpg" alt="Banner Phaser 3" style="width:60%"/>  
 <p>
 
 Nessa mesma aba vocês também encontrarão o item *"Making Your First Game"*. Esse é um tutorial inicial do Phaser e nós utilizaremos ele como base para desenvolver os Projetos Individuais. No entanto, **recomendamos que você siga o tutorial proposto em [Projeto Individual](#projeto-individual-parte-1)**, pois abordaremos os **autoestudos ponderados** e existem tarefas adicionais que não constam no tutorial do phaser.
+
+Também existem diversos exemplos de jogos e estruturas de código em *"Code Examples"*. Não deixe de explorar essas soluções!
 
 <br>
 
@@ -222,7 +223,7 @@ Você deve conseguir fazer o download do arquivo "**phaser.js**". Salve esse arq
 
 
 #### :white_medium_square: Visual Studio Code (VSCode)
-> fazer instalação do *VSCode*
+> Instale o *VSCode*
 
 **O que é Visual Studio Code?**
 
@@ -386,7 +387,7 @@ O artigo [*Running JavaScript in the Browser Console*](https://www.codecademy.co
 
 
 #### :white_medium_square:	Node.js
-> instalar o Node.js
+> Instale o Node.js
 
 **O que é Node.js?**
 
@@ -420,7 +421,7 @@ Removendo a linha ``console.log(armario)`` e usando o mesmo comando ``node nome-
 <br>
 
 #### :white_medium_square:	Live Server
-> instalar a extensão *Live Server*
+> Instale a extensão *Live Server* no VSCode
 
 Como vimos, a linguagem de programação JavaScript pode ser interpretada por navegadores web e o framework Phaser é especialmente projetado para o desenvolvimento de jogos para navegadores. No entanto, a estrutura web exige que tenhamos servidores para distribuir nossos arquivos e clientes para acessar os sites com nossos jogos (não deixe de fazer o autoestudo "Como a Web Funciona" na Adalove!).  
 
@@ -442,7 +443,7 @@ No menu lateral, selecione a quinta opção ``Extensions``, procure por Live Ser
 
 
 #### :white_medium_square:	GitHub e GitHub Desktop
-> fazer sua conta, instalar o GitHub Desktop e Clonar o Repositório Individual 
+> Faça sua conta, instale o GitHub Desktop e Clone o Repositório Individual 
 
 [REVER!]
 [REVER!]
@@ -492,6 +493,14 @@ Se você ainda não leu sobre o Projeto Individual, reveja o item **Projeto Indi
 <img src="assets/banner-peixe.png" alt="Banner Phaser 3" style="width:85%"/>
 
 <p>
+<br>
+
+Agora que você já instalou e começou a testar os recursos que usaremos no módulo, siga as instruções descritas a seguir e realize as tarefas extras listadas.
+
+Nesta primeira parte do seu Projeto Individual, exercitaremos as tecnologias a serem utilizadas no módulo. Vamos realizar um exercício usando JavaScript, Phaser, HTML e Live Server. O resultado deve ser publicado no GitHub Individual e o link deve ser enviado pela Adalove. [REVER!]
+
+Nós vamos construir uma página web que exiba a tela do jogo. Nessa parte 1, nosso "jogo" será um cenrário de mar com um peixe que segue o cursor do nosso mouse. Você pode ver um exemplo de como o exercício ficará [nesse site](https://intelicontent.github.io/M1-EX/exercicio_peixe/index.html).
+
 <br>
 
 #### Organizando Arquivos
@@ -769,9 +778,9 @@ Procure a tag ``<title>`` e insira seu nome como título do arquivo.
 
 **2. Responda a pergunta a seguir usando um ``console.log(resposta)``**
 
-Dentro de ``<body>``, adicione uma tag ``<script> ... </script>``. Dentro dela, crie uma variável ``resposta`` para responder a pergunta indicada. Você pode usar a declaração ``var resposta = "guarde seu texto aqui"`` para guardar sua resposta dentro da variável.  
+No arquivo ``index.html`` e usando uma tag ``<script> ... </script>``, crie uma variável ``resposta`` para guardar sua resposta. Você pode usar a declaração ``var resposta = "guarde seu texto aqui"`` para guardar sua resposta dentro da variável.  
 
-Depois, use o comando ``console.log()`` para imprimir sua mensagem no console do navegador assim que carregar a página. Não esqueça de testar!  
+Depois, use o comando ``console.log()`` para imprimir sua mensagem no console do navegador. Não esqueça de testar!  
 
 A pergunta que você deve responder é a seguinte: 
 
@@ -788,7 +797,7 @@ Você pode adicionar um elemento de plano de fundo, um piso, uma frase, uma plan
 **4. Publique no GitHub**
 
 Publique o resultado no seu GitHub Individual, no diretório designado para este autoestudo. 
-[REVER!] Entega no Git Sites?
+[REVER!] Entega no Git Pages?
 
 
 **5. Envie o link no Card da Adalove**
