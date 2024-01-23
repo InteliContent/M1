@@ -119,7 +119,7 @@ No contexto de computação, você desenvolverá paralelamente ao Projeto em Gru
 
 Será um mini Jogo de *plataforma* como os clássicos *Donkey Kong*, *Super Mario World* e *Sonic the Hedgehog* ou como os jogos de corrida infinita *[Dino Chrome](chrome://dino/)*, *Flap Bird*, *Canabalt* e *Temple Run* ou ainda como jogos mais atuais de plataforma *Cup Head*, *Hollow Knight* e *Journey*. Recomendamos que você pesquise (ou teste!) alguns desses exemplos de jogos de plataforma para o desenvolvimento do seu mini jogo.
 
-Faremos um jogo com uma tela inicial, pelo menos uma fase e uma tela de fim. Deve ter um cenário, uma ou mais personagens, plataformas ou obstáculos, moedas ou bombas, inimigos ou um caminho a ser percorrido, além de um sistema de pontuações. Esse jogo deve ser autoral e desenvolvido por você. Aproveite este projeto individual para experimentar recursos e testar estruturas. Iniciaremos o projeto na 3ª parte desse Tutorial (ver [Projeto Individual (parte 1)](#projeto-individual-parte-1)).
+Faremos um jogo com uma tela inicial, pelo menos uma fase e uma tela de fim. Deve ter um cenário, uma ou mais personagens, plataformas ou obstáculos, moedas ou bombas, inimigos ou um caminho a ser percorrido, além de um sistema de pontuações. Esse jogo deve ser autoral e desenvolvido por você. Aproveite este projeto individual para experimentar recursos e testar estruturas. Iniciaremos o projeto na 3ª parte desse Tutorial (ver [Projeto Individual (parte 1)](#projeto-individual-parte-1)).  
 
 :warning: **Atenção!** As entregas do projeto individual deverão ser realizadas no GitHub Individual e os links específicos devem ser apontados no card correspondente na Adalove.  
 
