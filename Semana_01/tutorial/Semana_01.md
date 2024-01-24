@@ -499,13 +499,13 @@ Agora que você já instalou e começou a testar os recursos que usaremos no mó
 
 Nesta primeira parte do seu Projeto Individual, exercitaremos as tecnologias a serem utilizadas no módulo. Vamos realizar um exercício usando JavaScript, Phaser, HTML e Live Server. O resultado deve ser publicado no GitHub Individual e o link deve ser enviado pela Adalove. [REVER!]
 
-Nós vamos construir uma página web que exiba a tela do jogo. Nessa parte 1, nosso "jogo" será um cenrário de mar com um peixe que segue o cursor do nosso mouse. Você pode ver um exemplo de como o exercício ficará [nesse site](https://intelicontent.github.io/M1-EX/exercicio_peixe/index.html).
+Nós vamos construir uma página web que exiba a tela do jogo. Nessa parte 1, nosso "jogo" será um cenário fundo do mar com um peixe que segue o cursor do nosso mouse. Você pode ver um exemplo de como o exercício ficará [nesse site](https://intelicontent.github.io/M1-EX/exercicio_peixe/index.html).
 
 <br>
 
 #### Organizando Arquivos
 
-> O material que vamos usar nessa parte do tutorial está disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/semana_01)
+> O material que vamos usar nessa parte do tutorial está disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/tree/main/Semana_01/exercicio_peixe/assets)
 
 Vamos precisar organizar um pequeno conjunto de arquivos antes de começar. 
 
@@ -532,11 +532,11 @@ O caminho de pastas deve ficar assim: ``exercicio_peixe/assets/peixes``.
 
 <br>
  
-Com a estrutura de pastas pronta, **visite a coleção de *assets*, disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/semana_01/exercicio_peixe/assets/peixes)
+Com a estrutura de pastas pronta, **visite a coleção de *assets*, disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/semana_01/exercicio_peixe/assets/peixes)**
 
 **Escolha um plano de fundo, um logo e um peixe para compor seu jogo**. 
 
-Faça o download desse material e guarde nas pastas que você criou, mantendo a estrutura organizada. Salve o "plano de fundo" e o "logo" na pasta ``assets`` e o peixe escolhido na pasta ``peixes``. Salve na pasta ``exercicio_peixe`` uma cópia do arquivo ``phaser.js``.
+Faça o download desse material e guarde nas pastas que você criou, mantendo a estrutura organizada. Salve o "plano de fundo" e o "logo" na pasta ``assets`` e o peixe escolhido na pasta ``peixes``. Também salve na pasta ``exercicio_peixe`` uma cópia do arquivo ``phaser.js``.
 
 <p>
 
@@ -574,15 +574,15 @@ Depois de abrir a pasta, você conseguirá ver seus arquivos e pastas no Explora
 
 Diversas páginas da internet são construídas com uma estrutura HTML (Hypertext Markup Language). HTML é uma linguagem de marcação (se o assunto interessar, veja [esse artigo](https://www.codecademy.com/resources/blog/are-html-css-real-programming-languages/) sobre o debate da diferenciação entre "linguagens de marcação" e "programação"). O HTML fornece a estrutura fundamental para organizar e apresentar informações em uma página web.  
 
-Por meio de *tags (etiquetas)* como ``<head>``, ``<body>``, ``<p>``,``<script>``, entre muitas outras, desenvolvedores marcam e identificam os diferentes elementos (estruturas, títulos, parágrafos de texto, imagens, links e outros recursos) que compõem o conteúdo de uma página.  
+Por meio de *tags (etiquetas)* como ``<head>``, ``<body>``, ``<p>``,``<script>``, entre muitas outras, vamos marcar e identificar os diferentes elementos (estruturas, títulos, parágrafos de texto, imagens, links e outros recursos) que compõem o conteúdo de uma página.  
 
 Em um Cartão de Aniversário podemos encontrar um título ou uma mensagem em destaque, um parágrafo de texto e uma figura, como ilustrado na imagem a seguir. Em uma versão ``<html>`` desse mesmo Cartão de Aniversário, podemos reparar que as tags ``<body>``, ``<h1>``, ``<p>`` e ``<img>`` organizam e diferenciam os "tipos" de conteúdo do cartão (corpo do cartão, título, mensagem e imagem).  
 
 <img src="assets/html.png" alt="Estrutura HTML" style="width:95%"/>
 
-Imagine que o Cartão de Aniversário foi comprado em uma loja e veio em uma embalagem com uma etiqueta. Nessa etiqueta você encontraria informações sobre o tipo de produto, código de barras, instruções, entre outras. É mais ou menos esse o papel do cabeçalho. Ele é marcado pela tag ``<head>`` e informa o navegador de como ele deve interpretar aquele arquivo. Já no corpo do arquivo, na tag ``<body>``, inserimos o conteúdo da página (os títulos, textos, imagens).  
+Imagine que o Cartão de Aniversário foi comprado em uma loja e veio em uma embalagem com uma etiqueta. Nessa etiqueta você encontraria informações sobre o tipo de produto, código de barras, instruções, entre outras. É mais ou menos esse o papel do cabeçalho html. Ele é marcado pela tag ``<head>`` e informa o navegador de como ele deve interpretar aquele arquivo. Já no corpo do arquivo, na tag ``<body>``, inserimos o conteúdo da página (os títulos, textos, imagens).  
 
-Usaremos a seguinte estrutura HTML para construir uma página web que abrigue nosso jogo. Como podemos ver na imagem a seguir, colocaremos o nosso jogo ``peixe.js`` em ``<body>``.
+Usaremos a seguinte estrutura HTML para construir uma página web que abrigue nosso jogo. Como podemos ver na imagem a seguir, colocaremos o nosso jogo ``peixe.js`` dentro de ``<body>`` e usando a tag ``<script>``.
 
 <img src="assets/html2.png" alt="Estrutura HTML" style="width:75%"/>
 
@@ -640,20 +640,20 @@ Usaremos ``preload()`` para carregar os recursos do nosso jogo. Os recursos carr
 
 Em ``create()`` poderemos criar e configurar elementos do jogo, usando uma "imagem.jpg" que carregamos em ``preload()`` para criar um player em ``create()``.
 
-Em ``update()`` definiremos a lógica de atualização em tempo real do jogo, como a detecção de colisões e o movimento de personagens. Depois de executar as duas primeiras funções, a função Esta função ``update()`` será chamada em um loop constante.
+Em ``update()`` definiremos a lógica de atualização em tempo real do jogo, como o movimento de personagens. Depois de executar as duas primeiras funções, a função Esta função ``update()`` será chamada em um loop constante.
 
 <img src="assets/peixejs-1.png" alt="Estrutura Phaser" style="width:75%"/>
 
 <p>
 <br>
 
-**Complete as funções ``preload()`` e ``create()``, como na imagem a seguir, para definir um plano de fundo para o seu jogo.**  
+**Complete as funções ``preload()`` e ``create()`` (ver imagem a seguir) para aplicar um plano de fundo no seu jogo.**  
 
 Veja o exemplo na imagem a seguir e adapte o código para usar a imagem que você já tinha escolhido. 
 
 Na ``linha 16``, em ``preload()``, definimos ``'mar'`` como o "apelido", o identificador dessa imagem (você pode escolher o nome que preferir!). Nssa linha, ajuste o nome do arquivo.  
 
-Na ``linha 20``, em ``create()``, usamos ``'mar'`` para adicionar essa imagem na tela do nosso jogo. Usamos ``400, 300`` para definir as coordenadas (o posicionamento) da imagem na tela do jogo (centro da largura e altura que definimos anteriormente em ``config``). 
+Na ``linha 20``, em ``create()``, usamos ``'mar'`` para adicionar essa imagem na tela do nosso jogo. Usamos ``400, 300`` para definir as coordenadas (o posicionamento) da imagem na tela do jogo (metade da largura e da altura que definimos anteriormente em ``config``, centralizando a imagem na tela). 
 
 <br>
 
@@ -662,7 +662,7 @@ Na ``linha 20``, em ``create()``, usamos ``'mar'`` para adicionar essa imagem na
 <p>
 <br>
 
-Com os dois arquivos salvos (``index.html`` e ``peixe.js``), clique com o botão direito do mouse no arquivo ``index.html`` e escolha "Abrir com Live Server", como mostra a imagem a seguir. O Live Server pode demorar alguns segundos para iniciar seu funcionamento (e podem aparecer algumas mensagens dizendo que alguma porta está ocupada). Seu computador deve exibir uma nova aba do seu navegador com a imagem de plano de fundo em uma area especifica. 
+Com os dois arquivos salvos (``index.html`` e ``peixe.js``), clique com o botão direito do mouse no arquivo ``index.html`` e escolha **"Abrir com Live Server"**, como mostra a imagem a seguir. O Live Server pode demorar alguns segundos para iniciar seu funcionamento (e podem aparecer algumas mensagens dizendo que alguma porta está ocupada). Seu computador deve exibir uma nova aba do seu navegador com a imagem de plano de fundo em uma area especifica. 
 
 <img src="assets/peixejs-3.png" alt="Abrir com Live Server" style="width:75%"/>
 
@@ -715,17 +715,11 @@ Depois de implementar o trecho CSS, sua página web deve se comportar como na im
 
 #### Adicionando os outros elementos em ``peixe.js``
 
-Adicione o logotipo escolhido, primeiro carregando o recurso na ``função preload()`` e, depois, adicionando o recurso na tela na ``função create()``.  
+Adicione o logotipo escolhido, primeiro carregando o recurso na ``função preload()`` e, depois, adicionando o recurso na tela na ``função create()``, como fizemos com o plano de fundo. Também adicione a imagem do peixe escolhido, primeiro carregando o recurso na ``função preload()`` e, depois, adicionando o recurso na tela na ``função create()``.  
 
-Também adicione a imagem do peixe escolhido, primeiro carregando o recurso na ``função preload()`` e, depois, adicionando o recurso na tela na ``função create()``.  
+Na imagem a seguir existem alguns trechos sublinhados em amarelo. Essas são funções adicionais que você pode usar depois de ``this.add.image()`` para editar e ajustar alguns aspectos da imagem. O ``setScale()`` realiza alterações no tamanho da imagem e ``setFlip()`` indica se a imagem deve ser espelhada horizontalmente ou verticalmente.  
 
-Na imagem a seguir existem alguns trechos sublinhados em amarelo. Essas são funções adicionais que você pode usar depois de ``this.add.image()`` para editar e ajustar alguns aspectos da imagem.  
-
-``setScale()`` realiza alterações no tamanho da imagem e ``setFlip()`` indica se a imagem deve ser espelhada horizontalmente ou verticalmente.  
-
-Já ``setOrigin()`` determina a origem daquela imagem. O ponto de origem é o ponto em torno do qual o posicionamento, a rotação e o dimensionamento da imagem serão definidos. Por padrão, o ponto de origem é no centro da imagem ``(0.5, 0.5)``, mas podemos definir que sua origem é o canto esquerdo superior, usando ``.setOrigin(0,0)`` ou no inferior direito usando ``.setOrigin(1,1)``.  
-
-Você também pode usar os métodos ``.setTint(cor)``, ``.setAngle(45)``, ``.setSize(w, h)``, ``.setCrop(0, 0, 100, 100)`` ou ``.setShadow (posX, poxY, #cor, blur, followTarget, update)`` para editar as imagens adicionadas na tela.  
+Já ``setOrigin()`` determina a origem daquela imagem. O ponto de origem é o ponto em torno do qual o posicionamento, a rotação e o dimensionamento da imagem serão definidos. Por padrão, o ponto de origem é no centro da imagem ``(0.5, 0.5)``, mas podemos definir que sua origem é o canto esquerdo superior, usando ``.setOrigin(0,0)`` ou no inferior direito usando ``.setOrigin(1,1)``. Você também pode usar os métodos ``.setTint(cor)``, ``.setAngle(45)``, ``.setSize(w, h)``, ``.setCrop(0, 0, 100, 100)`` ou ``.setShadow (posX, poxY, #cor, blur, followTarget, update)`` para editar as imagens adicionadas na tela.  
 
 Você pode encontrar mais informações na [documentação do Phaser](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html).  
 
@@ -769,7 +763,7 @@ Salve os arquivos, recarregue a página ``index.html`` e verifique o funcionamen
 
 <br>
 
-#### TAREFAS EXTRAS
+#### TAREFAS ADICIONAIS:
 
 #### No arquivo ``index.html``
 
@@ -802,4 +796,4 @@ Publique o resultado no seu GitHub Individual, no diretório designado para este
 
 **5. Envie o link no Card da Adalove**
 
-Não esqueça de enviar o link desse exercício publicado em seu GitHub Individual no card da Adalove!
+Não esqueça de enviar o link desse exercício publicado em seu GitHub Individual [REVER!] no card da Adalove! 
