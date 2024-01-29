@@ -4,9 +4,11 @@
 >**entrega do link na Adalove via github individual ou Git Pages?**
 > :warning: :warning: :warning: :warning: :warning: :warning:
 
-# Tutorial: Semana 4  
+# Semana 4: Entrega do Projeto Individual  
 
 Na primeira parte desta atividade você vai visitar o **Tutorial Oficial do Phaser** e construir o jogo de plataforma proposto ali. Na segunda parte, você vai estudar duas versões de código do Jogo do Dragão e investigar a estrutura de cenas do Phaser. No final deste tutorial, você deve entregar e publicar os resultados do seu Projeto Individual [REVER!].
+
+<br>
 
 ## Exercício Tutorial Phaser 
 
@@ -19,13 +21,12 @@ Agora que você já realizou pelo menos 3 exercícios usando o Phaser e estrutur
 
 Acesse aqui: [Tutorial Phaser (português de portugal)](https://phaser.io/tutorials/making-your-first-phaser-3-game-portuguese) ou [Tutorial Phaser (inglês)](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1). 
 
-Siga as etapas indicadas no Tutorial Phaser e realize o jogo. Você deve conseguir realizar um jogo como o da imagem a seguir.  
-
-Salve esse arquivo! Vamos continuar esse código daqui a pouco.  
+Siga as etapas indicadas no Tutorial Phaser e realize o jogo. Você deve conseguir realizar um jogo como o da imagem a seguir. 
 
 <img src="assets/resultado_part10.png" alt="Banner Tutorial Phaser" style="width:55%"/>
 
 <p>
+<br>
 <br>
 
 ## Observando as Cenas do Jogo do Dragão
@@ -35,15 +36,15 @@ Salve esse arquivo! Vamos continuar esse código daqui a pouco.
 <p>
 <br>
 
-Depois de ter realizado o Tutorial do Phaser, estude os códigos disponibilizados nos links a seguir. São duas versões do mesmo jogo "Flappy Dragon" ('uma cena' e 'duas cenas'). Os dois jogos são praticamente iguais, mas a estrutura de seus códigos apresentam uma diferença importante: enquanto uma das versões foi construída seguindo a estrutura de código que usamos até aqui ('uma cena'), a segunda versão apresenta o mesmo jogo, mas usa a estrutura de Cenas (scenes) do Phaser ('duas cenas').
+Depois de ter realizado o Tutorial do Phaser, estude os códigos disponibilizados nos links a seguir. São duas versões do mesmo jogo "Flappy Dragon" ('uma cena' e 'duas cenas'). Os dois jogos são praticamente iguais, mas a estrutura de seus códigos apresentam uma diferença importante: enquanto uma das versões foi feita com a estrutura de código que usamos até aqui ('uma cena'), a segunda versão apresenta o mesmo jogo, mas usa a estrutura de Cenas (scenes) do Phaser ('duas cenas').
 
 **Flappy Dragon (uma cena): [Jogável Dragão (uma cena)](https://intelicontent.github.io/M1-EX/exercicio_dragao/CenaUnica/oneScene.html)  e [Código Jogo Dragão (uma cena)](https://github.com/InteliContent/M1-EX/blob/main/exercicio_dragao/CenaUnica/oneScene.html)**.
 
-O framework de jogos que estamos usando oferece uma arquitetura baseada em *scenes* (cenas) para organizar e gerenciar diferentes partes do jogo. As cenas são instâncias da classe ``Phaser.Scene`` e representam diferentes estados ou fases do jogo. Cada cena contém sua própria lógica, gráficos e interações, além de seus elementos, como backgrounds, sprites, textos, e outros.  
+O Phaser oferece uma arquitetura baseada em *scenes* (cenas) para organizar e gerenciar diferentes partes do jogo. As cenas são instâncias da classe ``Phaser.Scene`` e representam diferentes estados ou fases do jogo. Cada cena contém sua própria lógica, gráficos e interações, além de seus elementos, como backgrounds, sprites, textos, e outros.  
 
 **Versão do jogo feito com duas cenas: [Jogável Dragão (duas cenas)](https://intelicontent.github.io/M1-EX/exercicio_dragao/duasCenas.html) e [Código Jogo Dragão (duas cenas)](https://github.com/InteliContent/M1-EX/tree/main/exercicio_dragao)**  
 
-Comece explorando o arquivo ``duasCenas.html``. Depois, veja os arquivos ``welcome.js`` e ``flappyDragon.js`` (pasta ``scenes``). Repare que no arquivo ``duasCenas.html`` incluímos as duas cenas construídas usando ``scene: [Welcome, FlappyDragon]``.
+Comece explorando o arquivo ``duasCenas.html``. Depois, veja os arquivos ``welcome.js`` e ``flappyDragon.js`` (pasta ``scenes``). Repare que no arquivo ``duasCenas.html`` incluímos as duas cenas construídas usando ``scene: [Welcome, FlappyDragon]`` nas configurações.
 
 A estrutura que você encontrará nos arquivos ``.js`` da versão ``duas cenas`` é similar a estrutura apresentada a seguir. Para construir uma cena Phaser, precisamos declarar o nome da classe que vamos construir ``Scene1``, além de declarar as funções ``preload(), create() e update()``, seguindo a mesma lógica que usamos nos outros exercícios.
 
@@ -69,17 +70,19 @@ class Scene1 extends Phaser.Scene {
 
 **Compare as duas versões do código e tente entender como esse jogo foi estruturado em duas cenas.**
 
+<br>
 
-## Realizando o seu Projeto Individual
+## Desenvolvendo o Projeto Individual
 
 Depois de ter realizado diversos exercícios com Phaser, chegou a hora de desenvolver seu Projeto Individual: um mini jogo de plataforma. Inspire-se nos exercícios que fizemos até aqui, adapte códigos, assets e estruturas e crie o seu jogo de plataforma autoral.  
 
-Consideraremos que o seu jogo é ``autoral`` se houverem suficientes modificações nos códigos e exemplos adaptados na entrega, ou seja, não devem ser apresentados enquanto resultado do ``Projeto Individual`` "cópias" dos exercícios realizados até aqui.  
+Consideraremos que o seu jogo é ``autoral`` se houverem suficientes modificações nos códigos e exemplos adaptados na entrega, ou seja, **não devem ser apresentados enquanto resultado do ``Projeto Individual`` "cópias" dos exercícios realizados até aqui**.  
 
-É esperado que você adapte os recursos que usamos, mas também que inclua novos cenários, modifique o formato da tela, a narrativa do jogo, a imagem e os movimentos do personagem, adapte os controles, altere a gravidade, dentre muitas outras modificações possíveis para as estruturas exploradas até aqui.  
+É esperado que você adapte os recursos que usamos, mas também que inclua novos cenários, modifique o formato da tela, a narrativa do jogo, a imagem e os movimentos do personagem, adapte os controles, altere a gravidade, dentre muitas outras modificações possíveis para as estruturas exploradas até aqui. Use sua criatividade!  
 
-Veja a seguir os requisitos mínimos desse jogo e as instruções de entrega. 
+Veja a seguir os requisitos mínimos desse Projeto Individual (mini jogo) e as instruções de entrega. 
 
+<br>
 
 #### Requisitos do Projeto Individual  [REVER!]
 
@@ -96,10 +99,10 @@ Você deve construir e apresentar para o seu jogador os controles de seu jogo. I
 Você deve incluir pelo menos um elemento com animação (como no exercício do pássaro e no tutorial do phaser) ou um "efeito especial" para o personagem (como no exercício do alienígena, onde incluímos o "efeito turbo").
 
 **Estrutura Lógica no Jogo**  
-Você deve apresentar pelo menos uma estrutura condicional em seu jogo. Use, por exemplo, a estrutura ``if (condição) {acontecimento}`` para estabelecer alguma condição para um evento no jogo.
+Você deve apresentar pelo menos uma estrutura condicional em seu jogo. Use, por exemplo, a estrutura ``if (condição) {acontecimento}`` para estabelecer alguma condição que dispare um evento no jogo.
 
 **Colisão ou Overlap**
-Construa pelo menos uma decorrência em função de colisão ou overlap de dois elementos na tela. 
+Construa pelo menos uma decorrência em função de uma colisão ou overlap de dois elementos na tela. 
 
 **Código Organizado e Comentado**
 Mantenha seu código organizado e comentado. Crie comentários para as principais funções do seu jogo e para todos os detalhes que considerar importantes para o entendimento de sua estrutura. Revise o nome de suas variáveis, mantendo as nomeações padronizados e compreensíveis, além de rever as identações de seu código (espaços e tabulações para alinhar e estruturar os blocos de código).

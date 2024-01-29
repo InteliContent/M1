@@ -16,7 +16,7 @@
 
 **Bem-vinda(o) ao seu primeiro tutorial de programação!**  
 
-Nesse documento você encontrará uma introdução ao que faremos no contexto de computação neste módulo (objetivos, atividades e projetos), além de instruções para downloads e instalações necessárias para o módulo e a descrição do **exercício ponderado** (Projeto Individual - parte 1) de computação da semana 1.
+Nesse documento você encontrará uma introdução ao que faremos no contexto de computação neste módulo (objetivos, atividades e projetos), além de instruções para downloads e instalações necessárias para o módulo e a descrição do **exercício ponderado** (Projeto Individual) de computação da semana 1.
 
 Esperamos que você esteja animada(o) para começar!
 
@@ -33,7 +33,7 @@ Sobre o contexto de computação no módulo 1 - nossos objetivos, atividades e p
 
 Instruções de instalação das ferramentas que usaremos no módulo, apresentação de alguns conceitos e algumas propostas de explorações iniciais com código e ambientes de programação.  
 
-**[:black_small_square:	 Projeto Individual (parte 1)](#projeto-individual-parte-1):** Exercício do Peixe
+**[:black_small_square:	 Projeto Individual](#projeto-individual-parte-1):** Exercício do Peixe
 > :warning: Essa entrega é obrigatória, ponderada e individual!
 
 Exercitando as tecnologias a serem utilizadas no módulo: introdução ao Phaser. Realização de um exercício usando JavaScript, Phaser, HTML e Live Server. O resultado deve ser publicado no GitHub Individual e o link deve ser enviado pela Adalove. [REVER!]
@@ -126,7 +126,7 @@ No contexto de computação, você desenvolverá paralelamente ao Projeto em Gru
 
 Será um mini Jogo de *plataforma*. Com "jogo de plataforma", podemos nos lembrar dos clássicos *Donkey Kong*, *Super Mario World* e *Sonic the Hedgehog* ou como os jogos de corrida infinita *[Dino Chrome](chrome://dino/)*, *Flap Bird*, *Canabalt* e *Temple Run* ou ainda como jogos mais atuais de plataforma *Cup Head*, *Hollow Knight* e *Journey*. Recomendamos que você pesquise (ou teste!) alguns desses exemplos de jogos de plataforma para o desenvolvimento do seu mini jogo.
 
-Faremos um jogo com uma tela inicial, pelo menos uma fase e uma tela de fim. Deve ter um cenário, uma ou mais personagens, plataformas ou obstáculos, moedas ou bombas, inimigos ou um caminho a ser percorrido, além de um sistema de pontuações. Esse jogo deve ser autoral e desenvolvido por você. Aproveite este projeto individual para experimentar recursos e testar estruturas. Iniciaremos o projeto na 3ª parte desse Tutorial (ver [Projeto Individual (parte 1)](#projeto-individual-parte-1)).  
+Faremos um jogo com uma tela inicial, pelo menos uma fase e uma tela de fim. Deve ter um cenário, uma ou mais personagens, plataformas ou obstáculos, moedas ou bombas, inimigos ou um caminho a ser percorrido, além de um sistema de pontuações. Esse jogo deve ser autoral e desenvolvido por você. Aproveite este projeto individual para experimentar recursos e testar estruturas. Iniciaremos o projeto na 3ª parte desse Tutorial (ver [Projeto Individual](#projeto-individual-parte-1)).  
 
 :warning: **Atenção!** As entregas do projeto individual deverão ser realizadas no GitHub Individual e os links específicos devem ser apontados no card correspondente na Adalove.  [REVER!]
 
@@ -488,11 +488,12 @@ Acesse [GitHub Desktop](https://desktop.github.com/) e instale o programa em seu
 
 
 ## Projeto Individual (parte 1)
-**Projeto Individual: Jogo de Plataforma com Phaser**
+
+#### Jogo de Plataforma com Phaser
 
 Se você ainda não leu sobre o Projeto Individual, reveja o item **Projeto Individual: Jogo de Plataforma** em **[Atividades de Computação](#atividades-de-computação)** deste tutorial.
 
-> :warning: **Atenção!** O Projeto Individual será baseado no [tutorial oficial do Phaser](https://phaser.io/tutorials/making-your-first-phaser-3-game), mas com algumas modificações importantes! Recomendamos que você realize o proposto aqui **antes** de visitar a página do tutorial oficial (indicaremos quando for o melhor momento)! 
+> :warning: **Atenção!** O Projeto Individual será baseado no [tutorial oficial do Phaser](https://phaser.io/tutorials/making-your-first-phaser-3-game), mas com modificações importantes e etapas extras! Recomendamos que você realize o proposto aqui **antes** de visitar a página do tutorial oficial (indicaremos quando for o melhor momento)! 
 
 > :warning: :heart: **Atenção!** Enquanto estiver realizando este exercício, lembre-se que na Adalove existem vários outros materiais que podem te ajudar a compreender melhor os conteúdos abordados aqui. Você pode optar por ler os textos e ver os vídeos indicados antes de continuar esse tutorial ou seguir com o exercício e depois realizar os outros autoestudos.
 
@@ -779,10 +780,11 @@ Salve os arquivos, recarregue a página ``index.html`` e verifique o funcionamen
 
 #### No arquivo ``index.html``
 
-**1. Transforme o título do arquivo, alterando o texto que aparece na aba do navegador**
+**1. Transforme o título do arquivo, alterando o texto que aparece na aba do navegador**  
+
 Procure a tag ``<title>`` e insira seu nome como título do arquivo.
 
-**2. Responda a pergunta a seguir usando um ``console.log(resposta)``**
+**2. Responda a seguinte pergunta usando um ``console.log(resposta)``**
 
 No arquivo ``index.html`` e usando uma tag ``<script> ... </script>``, crie uma variável ``resposta`` para guardar sua resposta. Você pode usar a declaração ``var resposta = "guarde seu texto aqui"`` para guardar sua resposta dentro da variável.  
 
