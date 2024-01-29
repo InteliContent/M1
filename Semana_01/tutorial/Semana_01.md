@@ -112,9 +112,7 @@ Estão também inclusos nos autoestudos:
 1.7. Tutoriais → Como esse material de texto "Tutorial: Semana 1" que você está lendo agora.  
 1.8. Autoestudos Ponderados → Enviar nesse card o link do GitHub Individual com sua resposta!
 
-Os Tutoriais estão disponíveis tanto nos cards da [Adalove](https://adalove.inteli.edu.br/), quanto no [Repositório do GitHub do Módulo 1](https://github.com/InteliContent/M1). Não esqueça de arrastar seus cards de Autoestudo na Adalove.
-
-[REVER!]
+Os Tutoriais estão disponíveis tanto nos cards da [Adalove](https://adalove.inteli.edu.br/), quanto no [Repositório do GitHub do Módulo 1](https://github.com/InteliContent/M1) [REVER!]. Não esqueça de arrastar seus cards de Autoestudo na Adalove.
 
 Os cards de Autoestudos Ponderados estão disponíveis na Adalove. Vocês deverão inserir as tarefas realizadas em seus *GitHubs Individuais* e enviar no campo de resposta do card o link do repositório e/ou do GitHub Pages (ver [Ferramentas do Módulo](#purple_square-ferramentas) para mais informações sobre GitHub e GitHub Pages). Vocês encontrarão dois tipos de Autoestudos Ponderados: Listas de Exercício e Projeto Individual (partes 1 a 3). Os dois tipos devem ser entregues via GitHub Individual.  
 
@@ -126,11 +124,11 @@ A cada semana os autoestudos introduzirão novos conceitos, métodos e ferrament
 
 No contexto de computação, você desenvolverá paralelamente ao Projeto em Grupo um **Projeto Individual**! Será desenvolvido em JavaScript e Phaser e até o final do módulo deverá ser publicado em um GitHub Pages.
 
-Será um mini Jogo de *plataforma* como os clássicos *Donkey Kong*, *Super Mario World* e *Sonic the Hedgehog* ou como os jogos de corrida infinita *[Dino Chrome](chrome://dino/)*, *Flap Bird*, *Canabalt* e *Temple Run* ou ainda como jogos mais atuais de plataforma *Cup Head*, *Hollow Knight* e *Journey*. Recomendamos que você pesquise (ou teste!) alguns desses exemplos de jogos de plataforma para o desenvolvimento do seu mini jogo.
+Será um mini Jogo de *plataforma*. Com "jogo de plataforma", podemos nos lembrar dos clássicos *Donkey Kong*, *Super Mario World* e *Sonic the Hedgehog* ou como os jogos de corrida infinita *[Dino Chrome](chrome://dino/)*, *Flap Bird*, *Canabalt* e *Temple Run* ou ainda como jogos mais atuais de plataforma *Cup Head*, *Hollow Knight* e *Journey*. Recomendamos que você pesquise (ou teste!) alguns desses exemplos de jogos de plataforma para o desenvolvimento do seu mini jogo.
 
 Faremos um jogo com uma tela inicial, pelo menos uma fase e uma tela de fim. Deve ter um cenário, uma ou mais personagens, plataformas ou obstáculos, moedas ou bombas, inimigos ou um caminho a ser percorrido, além de um sistema de pontuações. Esse jogo deve ser autoral e desenvolvido por você. Aproveite este projeto individual para experimentar recursos e testar estruturas. Iniciaremos o projeto na 3ª parte desse Tutorial (ver [Projeto Individual (parte 1)](#projeto-individual-parte-1)).  
 
-:warning: **Atenção!** As entregas do projeto individual deverão ser realizadas no GitHub Individual e os links específicos devem ser apontados no card correspondente na Adalove.  
+:warning: **Atenção!** As entregas do projeto individual deverão ser realizadas no GitHub Individual e os links específicos devem ser apontados no card correspondente na Adalove.  [REVER!]
 
 <br>
 
