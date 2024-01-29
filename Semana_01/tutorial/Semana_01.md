@@ -1,6 +1,15 @@
 > **AINDA EXISTEM PARTES A SEREM REVISTAS NESSE DOCUMENTO.** 
 > **PROCURAR POR [REVER!]**.
 
+> :warning: :warning: :warning: :warning: :warning: :warning:
+>**Ajustar partes marcadas com [REVER!]** 
+>**entrega do link na Adalove via github individual ou Git Pages?**
+> :warning: :warning: :warning: :warning: :warning: :warning:
+
+<br>
+<br>
+<br>
+
 > Comece por aqui!
 
 # Tutorial: Semana 1  
@@ -420,6 +429,11 @@ Removendo a linha ``console.log(armario)`` e usando o mesmo comando ``node nome-
 <p>
 <br>
 
+:warning: **Caso você encontre algum problema para executar seu arquivo com o node, verifique se o caminho do seu arquivo está correto.** No caso dessa última imagem e no computador que estava executando esse código, o ``outroArquivo.js`` estava salvo dentro da pasta ``User`` que estava na pasta ``Users`` e dentro do diretório ``C:`` (*C:/Users/User/outroArquivo.js*). Procure o arquivo que você quer executar e verifique se o caminho de pastas esta adequado. Você também pode usar uma estrutura do tipo ``node D:/Caminho/Pastas/outroArquivo.js`` (substituindo pelo caminho de pastas como consta em seu computador), indicando a localização completa do arquivo.
+
+<p>
+<br>
+
 #### :white_medium_square:	Live Server
 > Instale a extensão *Live Server* no VSCode
 
@@ -532,7 +546,7 @@ O caminho de pastas deve ficar assim: ``exercicio_peixe/assets/peixes``.
 
 <br>
  
-Com a estrutura de pastas pronta, **visite a coleção de *assets*, disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/semana_01/exercicio_peixe/assets/peixes)**
+Com a estrutura de pastas pronta, **visite a coleção de *assets*, disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/tree/main/Semana_01/exercicio_peixe/assets)**
 
 **Escolha um plano de fundo, um logo e um peixe para compor seu jogo**. 
 
@@ -651,7 +665,7 @@ Em ``update()`` definiremos a lógica de atualização em tempo real do jogo, co
 
 Veja o exemplo na imagem a seguir e adapte o código para usar a imagem que você já tinha escolhido. 
 
-Na ``linha 16``, em ``preload()``, definimos ``'mar'`` como o "apelido", o identificador dessa imagem (você pode escolher o nome que preferir!). Nssa linha, ajuste o nome do arquivo.  
+Na ``linha 16``, em ``preload()``, definimos ``'mar'`` como o "apelido", o identificador dessa imagem (você pode escolher o nome que preferir!). Nessa linha, ajuste o nome do arquivo.  
 
 Na ``linha 20``, em ``create()``, usamos ``'mar'`` para adicionar essa imagem na tela do nosso jogo. Usamos ``400, 300`` para definir as coordenadas (o posicionamento) da imagem na tela do jogo (metade da largura e da altura que definimos anteriormente em ``config``, centralizando a imagem na tela). 
 
@@ -763,7 +777,7 @@ Salve os arquivos, recarregue a página ``index.html`` e verifique o funcionamen
 
 <br>
 
-#### TAREFAS ADICIONAIS:
+### Tarefas Adicionais:
 
 #### No arquivo ``index.html``
 

@@ -1,12 +1,14 @@
-> . . .  
->**Itens a [REVER!]: links e entrega via github individual ou Pages?**
-> . . . 
+> :warning: :warning: :warning: :warning: :warning: :warning:
+> **ATENÇÃO! Revisão necessária.**
+>**Ajustar partes marcadas com [REVER!]** 
+>**entrega do link na Adalove via github individual ou Git Pages?**
+> :warning: :warning: :warning: :warning: :warning: :warning:
 
 # Tutorial: Semana 2
 
-Como fizemos no tutorial anterior, vamos construir uma página web para exibir a tela do nosso jogo. Nosso "jogo" será composto por um cenário de céu com um pássaro voando. Esse pássaro voa em loop contínuo - e será sua tarefa construir uma sequência lógica usando JavaScript e Phaser para fazer o pássaro voar na tela. 
+Como fizemos no tutorial anterior, vamos construir uma página web para exibir a tela do nosso jogo. Nosso "jogo" será composto por um cenário de céu com um pássaro voando. Esse pássaro voará em loop contínuo - e será sua tarefa construir uma sequência lógica usando JavaScript e Phaser para fazer o pássaro voar na tela. 
 
-Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https://intelicontent.github.io/M1-EX/exercicio_passaro/bird.html). [REVER!]
+Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https://intelicontent.github.io/M1-EX/exercicio_passaro/index.html). [REVER!]
 
 ### Parte 2: Exercício do Pássaro
 
@@ -220,13 +222,13 @@ Ao final dessa implementação, o passarinho deve estar continuamente se desloca
 <p>
 <br>
 
-#### TAREFAS ADICIONAIS:
+### Tarefas Adicionais:
 
 **1. Organize e comente seu código!**
 Dedique um tempo para organizar espaçamentos e identações. Adicione comentários explicativos ao longo do código - aqui, quanto mais detalhado melhor! Isso garante que você tenha entendido todas as partes da estrutura. O que descobrir de dúvidas, deixe anotado em seu arquivo.
 
 **2. Implemente o movimento de ``passarinho.y``**
-Agora que elaboramos uma lógica de movimento para o passarinho no eixo x da tela do nosso jogo, crie uma lógica que faça o passarinho também se movimentar no eixo y. *Você pode modificar a lógica do eixo x, se preferir*. O passarinho deve se movimentar ainda em um loop contínuo.
+Agora que elaboramos uma lógica de movimento para o passarinho no eixo x da tela do nosso jogo, crie uma lógica que faça o passarinho também se movimentar no eixo y. *Você pode modificar a lógica do eixo x, se preferir*. O passarinho deve se movimentar em um loop contínuo.
 
 **3. Publique no GitHub Individual e envie o link na Adalove**
 Publique seu resultado em seu GitHub Individual. 
