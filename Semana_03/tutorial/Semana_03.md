@@ -13,7 +13,7 @@ Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https:
 
 ## Exercício do Alienígena
 
-<img src="assets/bn-alien.png" alt="Banner Exercício Alienígena" style="width:85%"/>
+<img src="assets/bnn-alien.png" alt="Banner Exercício Alienígena" style="width:85%"/>
 
 <p>
 <br> 
@@ -115,7 +115,7 @@ Depois de completar o código e abrir seu arquivo usando o Live Server, você ve
 
 Use ``.setCollideWorldBounds()`` e indique ``true`` para ativar os "limites físicos" das bordas da tela do jogo, impedindo que o personagem ultrapasse essa barreira. Complete o código e teste novamente seu jogo.  
 
-<img src="assets/alien4.png" alt="ativando bordas da tela" style="width:60%"/>
+<img src="assets/alien_4.png" alt="ativando bordas da tela" style="width:60%"/>
 
 <p>  
 <br>  
@@ -124,7 +124,7 @@ Use ``.setCollideWorldBounds()`` e indique ``true`` para ativar os "limites fís
 
 Dentro das configurações do jogo, indique ``debug: true`` para visualisar as informações de depuração (debug) relacionadas à física do jogo. Ativando esse modo você verá uma borda em seu alienígena e uma linha que se estica para baixo, conforme o personagem cai.  
 
-<img src="assets/debug.png" alt="ativando modo debug" style="width:40%"/>
+<img src="assets/modo-debug.png" alt="ativando modo debug" style="width:40%"/>
 
 <p>  
 
@@ -140,7 +140,7 @@ Com o debug ativado, a área desenhada pelo quadrado na tela indica a região qu
 
 Usaremos o comando **``this.input.keyboard.createCursorKeys()``** para acessar as setas do teclado (direita, esquerda, baixo e cima). Crie uma variável e atribua a ela as propriedades dessas teclas, como na imagem a seguir.  
 
-<img src="assets/controles.png" alt="Incluindo keyboard" style="width:65%"/>  
+<img src="assets/controles.png" alt="Incluindo keyboard" style="width:55%"/>  
 
 <p>  
 <br>  
