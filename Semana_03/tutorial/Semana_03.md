@@ -280,13 +280,13 @@ Você deve conseguir ver em sua tela do jogo o plano de fundo, a plataforma est�
 <br>  
 
 
-### Tarefas Adicionais:
+### Tarefas Adicionais:  
 
-**1. Organize e comente seu código!**
-Dedique um tempo para organizar espaçamentos e identações. Adicione comentários explicativos ao longo do código - aqui, quanto mais detalhado melhor! Isso garante que você tenha entendido todas as partes da estrutura. O que descobrir de dúvidas, deixe anotado em seu arquivo.
+**1. Organize e comente seu código!**  
+Dedique um tempo para organizar espaçamentos e identações. Adicione comentários explicativos ao longo do código - aqui, quanto mais detalhado melhor! Isso garante que você tenha entendido todas as partes da estrutura. O que descobrir de dúvidas, deixe anotado em seu arquivo.  
 
-**2. Inclua mais um obstáculo na tela**
-Assim como adicionamos uma plataforma, adicione um segundo obstáculo na tela (pode ser outra plataforma, um planeta, uma árvore ou outro objeto você queira). Seu alienígena e suas moedas devem colidir com esse novo obstáculo. Carregue a imagem, crie o obstáculo e crie as colisões necessárias.
+**2. Inclua mais um obstáculo na tela**  
+Assim como adicionamos uma plataforma, adicione um segundo obstáculo na tela (pode ser outra plataforma, um planeta, uma árvore ou outro objeto você queira). Seu alienígena e suas moedas devem colidir com esse novo obstáculo. Carregue a imagem, crie o obstáculo e crie as colisões necessárias.  
 
-**3. Publique seus resultados no GitHub e envie sua resposta no card da Adalove**
-Publique seu resultado em seu GitHub Individual. Envie o link do seu GitHub Pages com a página web em funcionamento no card da Adalove. [REVER!]
+**3. Publique seus resultados no GitHub e envie sua resposta no card da Adalove**  
+Publique seu resultado em seu GitHub Individual. Envie o link do seu GitHub Pages com a página web em funcionamento no card da Adalove. [REVER!]  

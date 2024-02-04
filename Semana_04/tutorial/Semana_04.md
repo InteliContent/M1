@@ -27,11 +27,11 @@ Siga as etapas indicadas no Tutorial Phaser e realize o jogo. Você deve consegu
 
 <p>
 <br>
-<br>
 
-## Observando as Cenas do Jogo do Dragão
+## Exercício do Dragão 
+### Dividindo em cenas
 
-<img src="assets/bn-dragon.png" alt="Banner Dragão" style="width:65%"/>
+<img src="assets/bn-dragon.png" alt="Banner Dragão" style="width:60%"/>
 
 <p>
 <br>
