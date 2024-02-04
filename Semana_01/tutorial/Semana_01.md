@@ -17,7 +17,7 @@ Esperamos que você esteja animada(o) para começar!
 
 Um resumo sobre o contexto de computação no módulo 1 - nossos objetivos, atividades e projetos (faremos um projeto extra e individual!). 
 
-#### **[:black_small_square:	 Ferramentas e Conceitos](#purple_square-ferramentas)**
+#### **[:black_small_square:	 Ferramentas e Conceitos](#ferramentas)**
 > :warning: você precisará fazer algumas instalações!  
 
 Instruções de instalação das ferramentas que usaremos no módulo, apresentação de alguns conceitos e propostas de explorações iniciais com código e ambientes de programação.  
@@ -126,15 +126,15 @@ Antes de começar a programar os nossos projetos, precisaremos fazer alguns down
 
 **O que vamos usar:**
 
-[Phaser](#white_medium_square-phaser)
+[Phaser](#phaser)
 
-[Visual Studio Code (VSCode)](#white_medium_square-visual-studio-code-vscode)
+[Visual Studio Code (VSCode)](#visual-studio-code-vscode)
 
-[Node.js](#white_medium_square-nodejs)
+[Node.js](#nodejs)
 
-[Live Server](#white_medium_square-live-server)
+[Live Server](#live-server)
 
-[GitHub](#white_medium_square-github-e-github-desktop)
+[GitHub](#github-e-github-desktop)
 
 
 ### O que é "Programação"?
