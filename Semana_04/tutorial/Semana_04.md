@@ -6,11 +6,11 @@
 
 # Semana 4: Entrega do Projeto Individual  
 
-Na primeira parte desta atividade você vai visitar o **Tutorial Oficial do Phaser** e construir o jogo de plataforma proposto ali. Na segunda parte, você vai estudar duas versões de código do Jogo do Dragão e investigar a estrutura de cenas do Phaser. No final deste tutorial, você deve entregar e publicar os resultados do seu Projeto Individual [REVER!].
+Na primeira parte desta atividade você vai visitar o **Tutorial Oficial do Phaser** e construir o jogo de plataforma proposto ali. Na segunda parte, você vai estudar duas versões de código do Jogo do Dragão e investigar a estrutura de cenas do Phaser. No final deste tutorial, você deve entregar e publicar os resultados do seu Projeto Individual.
 
 <br>
 
-## Exercício Tutorial Phaser 
+## Parte 4.1: Exercício Tutorial Phaser 
 
 <img src="assets/bn-phaser3.png" alt="Banner Tutorial Phaser" style="width:75%"/>
 
@@ -28,7 +28,7 @@ Siga as etapas indicadas no Tutorial Phaser e realize o jogo. Você deve consegu
 <p>
 <br>
 
-## Exercício do Dragão 
+## Parte 4.2: Exercício do Dragão 
 ### Dividindo em cenas
 
 <img src="assets/bn-dragon.png" alt="Banner Dragão" style="width:60%"/>
@@ -36,7 +36,7 @@ Siga as etapas indicadas no Tutorial Phaser e realize o jogo. Você deve consegu
 <p>
 <br>
 
-Depois de ter realizado o Tutorial do Phaser, estude os códigos disponibilizados nos links a seguir. São duas versões do mesmo jogo "Flappy Dragon" ('uma cena' e 'duas cenas'). Os dois jogos são praticamente iguais, mas a estrutura de seus códigos apresentam uma diferença importante: enquanto uma das versões foi feita com a estrutura de código que usamos até aqui ('uma cena'), a segunda versão apresenta o mesmo jogo, mas usa a estrutura de Cenas (scenes) do Phaser ('duas cenas').
+Depois de ter realizado o Tutorial do Phaser, estude os códigos disponibilizados nos links a seguir. São duas versões do mesmo jogo "Flappy Dragon" ('uma cena' e 'duas cenas'). Os dois jogos são praticamente iguais, mas a estrutura de seus códigos apresentam uma diferença importante: enquanto uma das versões foi feita com a estrutura de código que usamos até aqui (versão 'uma cena'), a segunda versão apresenta o mesmo jogo, mas usa a estrutura de Cenas (scenes) do Phaser (versão 'duas cenas').
 
 **Flappy Dragon (uma cena): [Jogável Dragão (uma cena)](https://intelicontent.github.io/M1-EX/exercicio_dragao/CenaUnica/oneScene.html)  e [Código Jogo Dragão (uma cena)](https://github.com/InteliContent/M1-EX/blob/main/exercicio_dragao/CenaUnica/oneScene.html)**.
 
@@ -44,7 +44,7 @@ O Phaser oferece uma arquitetura baseada em *scenes* (cenas) para organizar e ge
 
 **Versão do jogo feito com duas cenas: [Jogável Dragão (duas cenas)](https://intelicontent.github.io/M1-EX/exercicio_dragao/duasCenas.html) e [Código Jogo Dragão (duas cenas)](https://github.com/InteliContent/M1-EX/tree/main/exercicio_dragao)**  
 
-Comece explorando o arquivo ``duasCenas.html``. Depois, veja os arquivos ``welcome.js`` e ``flappyDragon.js`` (pasta ``scenes``). Repare que no arquivo ``duasCenas.html`` incluímos as duas cenas construídas usando ``scene: [Welcome, FlappyDragon]`` nas configurações.
+Comece explorando o arquivo ``duasCenas.html``. Depois, veja os arquivos ``welcome.js`` e ``flappyDragon.js`` (pasta ``scenes``). Repare que no arquivo ``duasCenas.html`` incluímos as duas cenas construídas usando o comando ``scene: [Welcome, FlappyDragon]`` dentro das configurações.
 
 A estrutura que você encontrará nos arquivos ``.js`` da versão ``duas cenas`` é similar a estrutura apresentada a seguir. Para construir uma cena Phaser, precisamos declarar o nome da classe que vamos construir ``Scene1``, além de declarar as funções ``preload(), create() e update()``, seguindo a mesma lógica que usamos nos outros exercícios.
 
@@ -80,38 +80,40 @@ Consideraremos que o seu jogo é ``autoral`` se houverem suficientes modificaç�
 
 É esperado que você adapte os recursos que usamos, mas também que inclua novos cenários, modifique o formato da tela, a narrativa do jogo, a imagem e os movimentos do personagem, adapte os controles, altere a gravidade, dentre muitas outras modificações possíveis para as estruturas exploradas até aqui. Use sua criatividade!  
 
-Veja a seguir os requisitos mínimos desse Projeto Individual (mini jogo) e as instruções de entrega. 
+Veja a seguir os requisitos mínimos desse Projeto Individual (mini jogo), as instruções de entrega e a atribuição de pontos.
 
 <br>
 
-#### Requisitos do Projeto Individual  [REVER!]
+### Requisitos do Projeto Individual  
 
 **Elementos do Jogo**  
 Você deve apresentar pelo menos um cenário, um personagem, uma plataforma (ou barreira) e um sistema de pontuação (placar).
 
-**Estrutura em Cenas (mínimo de duas)**
-Você deve estruturar seu jogo em Cenas (Scenes), apresentando pelo menos uma tela de início *(welcome)* e uma fase jogável. Você também pode incluir uma cena (ou um estado) para o fim do jogo *(game over)*.
+**Estrutura em Cenas (mínimo de duas)**  
+Você deve estruturar seu jogo em Cenas (Scenes), apresentando pelo menos duas, por exemplo uma tela de início *(welcome)* e uma fase jogável. Você também pode incluir uma cena (ou um estado) para o fim do jogo *(game over)*.
 
-**Controle do Jogo**
+**Controle do Jogo**  
 Você deve construir e apresentar para o seu jogador os controles de seu jogo. Indique na tela de início "como jogar". Você deve apresentar pelo menos dois "controles" (por exemplo, ``seta direita`` e ``seta esquerda``) para o seu jogo.
 
 **Elemento Animado ou Efeito Especial**  
 Você deve incluir pelo menos um elemento com animação (como no exercício do pássaro e no tutorial do phaser) ou um "efeito especial" para o personagem (como no exercício do alienígena, onde incluímos o "efeito turbo").
 
 **Estrutura Lógica no Jogo**  
-Você deve apresentar pelo menos uma estrutura condicional em seu jogo. Use, por exemplo, a estrutura ``if (condição) {acontecimento}`` para estabelecer alguma condição que dispare um evento no jogo.
+Você deve apresentar as estruturas de dados, condicionais e repetições que vimos até aqui em seu jogo. Use, por exemplo, a estrutura ``if (condição) {acontecimento}`` para estabelecer alguma condição que dispare um evento no jogo, a estrutura de ``lista`` para organizar um conjunto de dados, e as estruturas ``while`` ou ``for`` para construir repetições.
 
-**Colisão ou Overlap**
-Construa pelo menos uma decorrência em função de uma colisão ou overlap de dois elementos na tela. 
+**Colisão ou Overlap**  
+Estabeleça pelo menos uma decorrência em função de uma colisão ou overlap de dois elementos na tela. 
 
-**Código Organizado e Comentado**
+**Código Organizado e Comentado**  
 Mantenha seu código organizado e comentado. Crie comentários para as principais funções do seu jogo e para todos os detalhes que considerar importantes para o entendimento de sua estrutura. Revise o nome de suas variáveis, mantendo as nomeações padronizados e compreensíveis, além de rever as identações de seu código (espaços e tabulações para alinhar e estruturar os blocos de código).
 
 <br>
 
-#### Realizando a entrega
+### Realizando a entrega
 
-Depois de testar seu jogo, publique em seu GitHub Individual e disponibilize, no card da Adalove, o link para versão jogável e para o código do seu Projeto Individual. Inclua no card da Adalove o título de seu jogo, além de uma descrição narrativa ou contextual (*"um alienígena precisa pegar moedas no cenário"*) e a descrição dos controles de seu jogo (*"use as setas do teclado para mover o alienígena"*). 
+Depois de testar seu jogo, publique em seu GitHub Individual e disponibilize, no card da Adalove, dois links: o **link para o código do seu Projeto Individual** e o **link para versão jogável (publique no GitHub Pages)**. 
+
+**Inclua no card da Adalove** o título de seu jogo, além de uma descrição narrativa ou contextual (*"um alienígena precisa pegar moedas no cenário"*) e a descrição dos controles de seu jogo (*"use as setas do teclado para mover o alienígena"*). 
 
 Você pode copiar essa estrutura e completá-la com sua resposta: 
 
@@ -131,3 +133,16 @@ Você pode copiar essa estrutura e completá-la com sua resposta:
 
 ```
 
+
+#### Sobre a avaliação  
+
+- Inseriu e estruturou corretamente todos os elementos necessários no jogo (cenário, personagem, obstáculo/plataforma e placar): até 1 ponto
+- Estruturou e apresentou corretamente os controles do jogo: até 1 ponto
+- Construiu corretamente o jogo com uma estrutura de 2 cenas: até 1 ponto
+- Inseriu e configurou corretamente um elemento animado (movimento na tela ou uso de spritesheet): até 1 ponto
+- Utilizou e explorou as estruturas apresentadas no módulo (apresente pelo menos uma estrutura condicional, uma estrutura de repetição, uma função e uma lista): até 1 ponto
+- Utilizou e configurou corretamente recursos de overlap ou colisão: até 1 ponto
+- Apresentou código organizado e comentado: até 1 ponto
+- Publicou o projeto (com pastas organizadas) no GitHub Individual: até 1 ponto
+- Apresentou título e explicou contexto e controle do jogo (na resposta do card da Adalove): até 1 ponto
+- Desafio! Publicou uma versão jogável de seu Projeto Individual no GitHub Pages (não esqueça de enviar o link no card da Adalove!): até 1 ponto

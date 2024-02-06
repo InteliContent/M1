@@ -1,28 +1,22 @@
-> :warning: :warning: :warning: :warning: :warning: :warning:
-> **ATENÇÃO! Revisão necessária.**
->**Ajustar partes marcadas com [REVER!]** 
->**entrega do link na Adalove via github individual ou Git Pages?**
-> :warning: :warning: :warning: :warning: :warning: :warning:
-
 # Tutorial: Semana 3  
 
 Como nos exercícios anteriores, vamos construir uma página web usando html e css para exibir a tela do nosso jogo. Ele será composto por uma tela, um plano de fundo, uma plataforma, um alienígena e algumas moedas. Faremos uma espaçonave voar e coletar moedas seguindo algumas regras de física e estruturando detecção de colisões.  
 
-Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https://intelicontent.github.io/M1-EX/exercicio_alienigena/index.html). [REVER!]  
+Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https://intelicontent.github.io/M1-EX/exercicio_alien/index.html).  
 
 
-## Exercício do Alienígena
+## Parte 3: Exercício do Alienígena
 
 <img src="assets/bnn-alien.png" alt="Banner Exercício Alienígena" style="width:85%"/>
 
 <p>
 <br> 
 
-Para iniciar o **Exercício do Alienígena**, construiremos uma página html com uma imagem do fundo usando a ``estrutura html``, JavaScript e as funções do ``Phaser`` que vimos nos últimos exercícios. Utilize a estrutura disponibilizada, completando os comentários do código em seu arquivo.  
+Para iniciar o **Exercício do Alienígena**, construiremos uma página html com uma imagem do fundo usando a ``estrutura html``, JavaScript e as funções do ``Phaser`` que vimos nos últimos exercícios. Utilize a estrutura disponibilizada a seguir, completando os comentários do código em seu arquivo.  
 
 Como podemos ver na imagem e no código a seguir, criaremos duas variáveis para guardar os valores da altura e largura da tela do jogo que está sendo criado. Isso possibilita utilizar a própria variável para indicar um tamanho ou uma posição de algum elemento do jogo (ver ``função create()``).  
 
-<img src="assets/alien1.png" alt="Criando a estrutura html e phaser" style="width:95%"/>
+<img src="assets/alien1.png" alt="Criando a estrutura html e phaser" style="width:100%"/>
 
 <p>
 <br> 
@@ -92,17 +86,14 @@ Antes da ``função preload()``, crie uma ``variável alien`` para guardar a per
 <p>  
 <br>  
 
-Se você tentou testar seu código, verá que tudo parou de funcionar. Isso acontece porque ainda não ativamos a física **``.physics``** do jogo que estamos tentando usar para adicionar o alienígena. Dentro das configurações ``config``, precisamos ativar a física usando ``physics`` e determinando, por exemplo, que a gravidade do nosso jogo será de 300 para o eixo Y.  
-
-
-**Complete o código para ativar a física do jogo, como indicado na imagem a seguir.**  
+Se você tentou testar seu código, verá que tudo parou de funcionar. Isso acontece porque ainda não ativamos a física **``.physics``** do jogo. Dentro das configurações ``config``, precisamos ativar a física usando ``physics`` e determinando, por exemplo, que a gravidade do nosso jogo será de 300 para o eixo Y. **Complete o código para ativar a física do jogo, como indicado na imagem a seguir.**  
  
 <img src="assets/alien2.2.png" alt="ativando a física do jogo" style="width:55%"/>  
 
 <p>  
 <br>
 
-Depois de completar o código e abrir seu arquivo usando o Live Server, você verá seu alienígena surgindo na tela e tendo sua nave afetada pela física, caindo aos poucos. No entanto, o personagem perde altura até sumir da tela. O próximo passo será ativar "barreiras" físicas para as bordas da tela, determinando um limite espacial para movimentação do persongem.  
+Depois de completar o código e abrir seu arquivo usando o ``Live Server``, você verá seu alienígena surgindo na tela e tendo sua nave afetada pela física, caindo aos poucos. No entanto, o personagem perde altura até o final da tela, e desaparece. O próximo passo será ativar "barreiras" físicas para as bordas da tela, determinando um limite espacial para movimentação do persongem.  
 
 <p>  
 <br>
@@ -120,7 +111,7 @@ Use ``.setCollideWorldBounds()`` e indique ``true`` para ativar os "limites fís
 <p>  
 <br>  
 
-**Vendo os limites: ative o modo debug**  
+### Vendo os limites: ative o modo debug
 
 Dentro das configurações do jogo, indique ``debug: true`` para visualisar as informações de depuração (debug) relacionadas à física do jogo. Ativando esse modo você verá uma borda em seu alienígena e uma linha que se estica para baixo, conforme o personagem cai.  
 
@@ -166,10 +157,10 @@ Comece criando uma variável ``var fogo``, carregue a imagem correspondente em `
 <p>  
 <br>  
 
-Depois do final de ``update() { logica de movimento aqui }``, criaremos as duas funções ``ativarTurbo()`` e ``semTurbo()`` para controlar a visibilidade do efeito, ativando ``true`` e desativando ``false`` a imagem. Veja no final da imagem a seguir como estruturar essas duas funções.  
+Depois do final de ``update() { logica de movimento aqui }``, criaremos as duas funções ``ativarTurbo()`` e ``semTurbo()`` para controlar a visibilidade do efeito, ativando ``.setVisibile(true)`` e desativando ``.setVisibile(false)`` a imagem. Veja no final da imagem a seguir como estruturar essas duas funções.  
 
 
-**``Em update()``**, adicionaremos as "chamadas" dessas funções (os momentos em que aqueles comandos determinados dentro das funções devem acontecer). Adicionaremos os comandos ``ativarTurbo()`` e ``semTurbo()`` nos locais indicados na imagem para chamar as funções que ativam e desativam a visibilidade da imagem do fogo.  
+**``Em update()``**, adicionaremos as "chamadas" dessas funções (os momentos em que aqueles comandos determinados dentro das funções devem acontecer). Adicionaremos os comandos ``ativarTurbo()`` e ``semTurbo()`` nos locais indicados na imagem para "chamar"/executar as funções que ativam e desativam a visibilidade da imagem do fogo.  
 
 Também **adicionaremos a linha ``fogo.setPosition(alien.x, alien.y + alien.height/2)``** para atualizar a posição de ``fogo`` em relação ao ``alien``. Aqui usamos ``"alien.y + alien.height/2"`` para determinar que o fogo se posicione no mesmo y de alien (ponto central), somando metade da altura de alien para alocar o fogo na metade inferior da altura de alien, mas você pode optar pela posição relativa que preferir!  
 
@@ -202,7 +193,7 @@ Em ``create()``, use o comando ``this.physics.add.staticImage()`` para criar a p
 <p>  
 <br>  
 
-Para estabelecer uma colisão, usaremos o comando ``this.physics.add.collider(obj1, obj2)``. Esse comando, assim como o ``.setCollideWorldBounds(true)`` que usamos no início deste tutorial, cria "barreiras físicas" entre os objetos indicados dentro do parêntesis. Indicando (alien, plataforma), declaramos que essa colisão entre plataforma e alien deve acontecer. O resultado é que o alienígena não conseguirá mais "atravessar" a plataforma, conseguindo agora "pousar" nela.  
+Para estabelecer uma colisão, usaremos o comando ``this.physics.add.collider(obj1, obj2)``. Esse comando, assim como o ``.setCollideWorldBounds(true)`` que usamos no início deste tutorial, cria "barreiras físicas" entre os objetos indicados dentro do parêntesis. Indicando ``(alien, plataforma)``, declaramos que essa colisão entre plataforma e alien deve acontecer. O resultado é que o alienígena não conseguirá mais "atravessar" a plataforma, conseguindo agora "pousar" nela.  
 
 <img src="assets/platf3.png" alt="Criando Colisão" style="width:75%"/>  
 
@@ -247,11 +238,11 @@ Na ``function create()``, criaremos um placar usando o comando ``this.add.text(p
 placar = this.add.text(50, 50, 'Moedas:' + pontuacao, {fontSize:'45px', fill:'#495613'});
 ```
 
-Para adicionar um texto devemos indicar a ``posição (50, 50)`` em que o texto deve ser adicionado, seu ``conteúdo ('moedas:' + pontuacao)`` e adicionar informações sobre sua aparência, por exemplo o ``tamanho da fonte com 'fontSize'`` e a ``cor do texto com 'fill'``.  
+Para adicionar um texto devemos indicar a ``posição (x, y)`` em que o texto deve ser adicionado, seu ``conteúdo ('moedas:' + pontuacao)`` e adicionar informações sobre sua aparência, por exemplo o ``tamanho da fonte com 'fontSize'`` e a ``cor do texto com 'fill'``.  
 
 Atenção para a indicação ``'Moedas:' + pontuacao``. Enquanto **``'Moedas:'``** está entre 'aspas simples' (indicando um texto), a palavra **``pontuacao``** aparece sem aspas (indicando uma variável). Com a frase ``'Moedas:' + pontuacao`` pedimos que seja formada uma nova "frase" somando o texto 'Moedas:' com o valor guardado na variável "pontuacao".  
 
-Agora adicionaremos um trecho que adiciona um ponto no placar toda vez que o alienígena conseguir "pegar" uma moeda. Veja nas duas imagens seguintes o trecho de código que indica "quando o alien encostar na moeda..."  
+Agora adicionaremos um trecho que soma um ponto no placar toda vez que o alienígena conseguir "pegar" uma moeda. Veja nas duas imagens seguintes o trecho de código que indica "quando o alien encostar na moeda..."  
 
 <img src="assets/placar.png" alt="Criando placar" style="width:95%"/>  
 
@@ -289,4 +280,12 @@ Dedique um tempo para organizar espaçamentos e identações. Adicione comentár
 Assim como adicionamos uma plataforma, adicione um segundo obstáculo na tela (pode ser outra plataforma, um planeta, uma árvore ou outro objeto você queira). Seu alienígena e suas moedas devem colidir com esse novo obstáculo. Carregue a imagem, crie o obstáculo e crie as colisões necessárias.  
 
 **3. Publique seus resultados no GitHub e envie sua resposta no card da Adalove**  
-Publique seu resultado em seu GitHub Individual. Envie o link do seu GitHub Pages com a página web em funcionamento no card da Adalove. [REVER!]  
+Publique o resultado do exercício em seu GitHub Individual, de maneira organizada. Envie o link do projeto no card da Adalove.
+
+#### Sobre a avaliação  
+
+- Realização do "Exercício do Alienígena", de acordo com as instruções do tutorial: até 3 pontos
+- Código comentado, explicado e organizado: até 2 pontos
+- Adição de mais um obstáculo (com colisão) na cena: até 3 pontos
+- Publicação no GitHub, em conta individual e repositório apropriado: até 1 ponto
+- Desafio! Utilize a estrutura de dados do tipo lista em seu código: até 1 ponto

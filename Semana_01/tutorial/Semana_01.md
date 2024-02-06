@@ -7,9 +7,8 @@
 Nesse documento você encontrará uma introdução ao que faremos no contexto de computação neste módulo (objetivos, atividades e projetos), além de instruções para downloads e instalações necessárias para e a descrição do **exercício ponderado** de computação (Projeto Individual) da Semana 1.  
 
 Esperamos que você esteja animada(o) para começar!  
-  
----
-  
+
+<br> 
 
 ## Conteúdos  
 
@@ -27,7 +26,7 @@ Instruções de instalação das ferramentas que usaremos no módulo, apresenta�
 
 Exercitando as tecnologias a serem utilizadas no módulo: uma introdução ao Phaser. Realização de um exercício usando JavaScript, Phaser, HTML e Live Server. O resultado deve ser publicado no GitHub Individual e o link deve ser enviado pela Adalove.
 
----
+<br> 
 
 ## Introdução  
 
@@ -119,7 +118,7 @@ Será um jogo desenvolvido em JavaScript e Phaser, podendo ser um jogo de plataf
 
 > :warning: **Atenção!** As entregas do projeto em grupo deverão ser realizadas no GitHub do Grupo, seguindo as recomendações de entrega de Artefatos da(o) Orientadora(o) da sua turma.
 
----
+<br> 
 
 ## Ferramentas
 Antes de começar a programar os nossos projetos, precisaremos fazer alguns downloads e instalar alguns recursos. Ao longo das instalações, veremos alguns conceitos importantes que nos ajudarão a entender o que é que estamos instalando. 
@@ -428,7 +427,7 @@ Live Server é uma extensão do VSCode que realiza a criação de um servidor lo
 
 **Instalando o Live Server**
 
-No menu lateral, selecione a quinta opção ``Extensions``, procure por Live Server e faça a instalação. Usaremos essa extensão na terceira parte deste tutorial com o [Projeto Individual](#projeto-individual).
+No menu lateral, selecione a quinta opção ``Extensions``, procure por Live Server e faça a instalação. Usaremos essa extensão neste tutorial para o [Projeto Individual](#projeto-individual).
 
 <img src="assets/vsc-ext.png" alt="Terminal VSCode" style="width:40%"/>
 <p>
@@ -461,10 +460,9 @@ Depois de assistir os vídeos indicados, acesse o [GitHub](https://github.com/) 
 > :warning: Quando criar seu GitHub Individual, opte por um nome de conta que deixe claro para os professores quem é você. A sugestão é usar a estrutura "NomeSobrenome", evitando apelidos ou nicknames mais abstratos.
 
 
-<hr> 
+<br> 
 
-
-## Projeto Individual
+## Projeto Individual 
 
 #### Jogo de Plataforma com Phaser
 

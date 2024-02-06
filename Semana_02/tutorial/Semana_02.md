@@ -1,16 +1,12 @@
-> :warning: :warning: :warning: :warning: :warning: :warning:
-> **ATENÇÃO! Revisão necessária.**
->**Ajustar partes marcadas com [REVER!]** 
->**entrega do link na Adalove via github individual ou Git Pages?**
-> :warning: :warning: :warning: :warning: :warning: :warning:
-
 # Tutorial: Semana 2
 
-Como fizemos no tutorial anterior, vamos construir uma página web para exibir a tela do nosso jogo. Nosso "jogo" será composto por um cenário com um pássaro voando. Esse pássaro voará em loop contínuo - e será sua tarefa construir uma sequência lógica usando JavaScript e Phaser para fazer o pássaro voar na tela.  
+Como fizemos no tutorial anterior, vamos construir uma página web para exibir a tela do nosso jogo. Nosso "jogo" será composto por um cenário e um pássaro voando. Esse pássaro voará em loop contínuo - e será sua tarefa construir uma sequência lógica usando JavaScript e Phaser para fazer o pássaro voar na tela.  
 
-Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https://intelicontent.github.io/M1-EX/exercicio_passaro/index.html). [REVER!]  
+Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https://intelicontent.github.io/M1-EX/exercicio_passaro/index.html).  
 
-### Parte 2: Exercício do Pássaro  
+<br>
+
+## Parte 2: Exercício do Pássaro  
 
 <img src="assets/bn-birds.png" alt="Banner Exercício Pássaro" style="width:85%"/>  
 
@@ -18,18 +14,22 @@ Você pode ver um exemplo do resultado desse exercício [nesse site aqui](https:
 <br>
 
 
-#### Organizando Arquivos
+### Organizando Arquivos
 
-> O material que vamos usar nessa parte do tutorial está disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/tree/main/Semana_02/exercicio_animacao). [REVER!]  
+> O material que vamos usar nessa parte do tutorial está disponível no [GitHub do Módulo](https://github.com/InteliContent/M1/tree/main/Semana_02/exercicio_passaro).  
 
 Você vai encontrar dentro de ``exercicio_passaro`` uma pasta ``assets`` com alguns arquivos de imagem e um  arquivo ``index.html`` - vamos desenvolver o código completo neste único arquivo!  
 
-<img src="assets/estrutura-pastas.png" alt="Arquivos do Exercício" style="width:35%"/>
+<img src="assets/estrutura-pastas.png" alt="Arquivos do Exercício" style="width:25%"/>
 
 <p>
 <br>
 
 Crie essa estrutura de pastas, salve os arquivos assets e copie o código a seguir, salvando ele em um arquivo ``index.html``. Se ainda sobraram dúvidas com relação à estrutura HTML, retorne ao tutorial e aos autoestudos da semana 1.  
+
+Repare que, dessa vez, estamos usando o arquivo ``phaser.js`` a partir de um endereço web "https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js". Você consegue descobrir qual a diferença entre o arquivo ".min.js" e o arquivo ".js"? E por que aqui estamos usando um "endereço web" dentro de uma tag "script"? Faça uma pesquisa rápida, mas se sobrarem dúvidas, deixe anotado para a próxima instrução de programação!
+
+<br>
 
 ```
 // Arquivo "index.html"
@@ -67,9 +67,7 @@ Crie essa estrutura de pastas, salve os arquivos assets e copie o código a segu
 
 ### Editando o ``<script>`` dentro de ``index.html``  
 
-**No arquivo ``index.html``, complete o trecho ``<script>`` com as configurações iniciais do arquivo Phaser, indicadas a seguir.**   
-
-**Também adicione comentários no código, indicado as funções relacionadas pelo menos a ``config``, ``preload``, ``create`` e ``update``**.  
+**No arquivo ``index.html``, complete o trecho ``<script>`` com as configurações iniciais do arquivo Phaser, indicadas a seguir. Também adicione comentários no código, explicando pelo menos ``config``, ``preload()``, ``create()`` e ``update()``**.  
 
 
 ```
@@ -123,7 +121,7 @@ Como no universo dos desenhos animados, o movimento do nosso pássaro acontece p
 
 <p>
 
-Existe um tipo de arquivo de imagem muito usado para jogos chamado ``spriteSheet``. Essa imagem reune, de maneira organizada, diversos frames de movimentações de personagens ou elementos de um jogo. Podemos ver na imagem a seguir que a faixa da imagem pode ser segmentada em quadrados de 75 x 75px. Usaremos essa organização dos frames para realizar a animação do pássaro voando.  
+Existe um tipo de arquivo de imagem muito usado para jogos chamado ``spriteSheet``. Essa imagem reune, de maneira organizada, diversos frames de movimentações de personagens ou elementos de um jogo. Podemos ver na imagem a seguir que essa faixa de spriteSheet pode ser segmentada em quadrados de 75 x 75px. Usaremos essa organização dos frames para realizar a animação do pássaro voando.  
 
 <img src="assets/spriteSheet.png" alt="Sprite Sheet Pássaro - detalhes" style="width:85%"/>
 
@@ -210,7 +208,7 @@ Na imagem a seguir destacamos o bloco ``update()`` onde consta o trecho de códi
 
 Complete o ``console.log`` e use esse recurso no console do navegador para te ajudar a avaliar se seu entendimento dessa estrutura está correto.  
 
-<img src="assets/bird5.png" alt="Movimentando o pássaro com código" style="width:75%"/>  
+<img src="assets/bird5.png" alt="Movimentando o pássaro com código" style="width:55%"/>  
 
 <p>
 <br>
@@ -229,4 +227,15 @@ Dedique um tempo para organizar espaçamentos e identações. Adicione comentár
 Agora que elaboramos uma lógica de movimento para o passarinho no eixo x da tela do nosso jogo, crie uma lógica que faça o passarinho também se movimentar no eixo y. *Você pode modificar a lógica do eixo x, se preferir*. O passarinho deve se movimentar em um loop contínuo.  
 
 **3. Publique no GitHub Individual e envie o link na Adalove**  
-Publique seu resultado em seu GitHub Individual. Envie o link do seu GitHub Pages com a página web em funcionamento no card da Adalove. [REVER!]  
+Publique o resultado do exercício em seu GitHub Individual, de maneira organizada. Envie o link do projeto no card da Adalove.
+
+
+#### Sobre a avaliação  
+
+Este exercício será avaliado da seguinte maneira:  
+
+- Realização do "Exercício do Pássaro", de acordo com as instruções do tutorial: até 3 pontos  
+- Implementação do movimento do passarinho no eixo vertical e produção de loop animado: até 2 pontos  
+- Código comentado, explicado e organizado: até 3 pontos  
+- Publicação no GitHub, em conta individual e repositório apropriado: até 1 ponto  
+- Desafio! Tente usar uma estrutura de repetição (for/while) em seu código: até 1 ponto  
