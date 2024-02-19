@@ -1,9 +1,3 @@
-> :warning: :warning: :warning: :warning: :warning: :warning:
-> **ATENÇÃO! Revisão necessária.**
->**Ajustar partes marcadas com [REVER!]** 
->**entrega do link na Adalove via github individual ou Git Pages?**
-> :warning: :warning: :warning: :warning: :warning: :warning:
-
 # Semana 4: Entrega do Projeto Individual  
 
 Na primeira parte desta atividade você vai visitar o **Tutorial Oficial do Phaser** e construir o jogo de plataforma proposto ali. Na segunda parte, você vai estudar duas versões de código do Jogo do Dragão e investigar a estrutura de cenas do Phaser. No final deste tutorial, você deve entregar e publicar os resultados do seu Projeto Individual.
