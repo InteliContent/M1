@@ -19,7 +19,7 @@ print(a)
 
 **1)** O que o código a seguir faz?
 
-
+![Uma imagem](assets/ex01.PNG)
 
 Escolha a opção que responde corretamente:
 
@@ -35,6 +35,8 @@ ______
 
 **2)** Identificar a linha que falta no código para criar uma classe Veiculo com atributo marca, e uma classe Carro que herda de Veiculo com um método ligar(). 
 
+![Uma imagem](assets/ex02.PNG)
+
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
 A) let carro = new Carro("Toyota");
@@ -48,6 +50,8 @@ D) carro1.ligar();
 ______
 
 **3)** Qual é o valor de resultado após a execução deste código?
+
+![Uma imagem](assets/ex03.PNG)
 
 Escolha a opção que responde corretamente:
 
@@ -63,31 +67,31 @@ ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-A)
+A) ![Uma imagem](assets/ex04_1.PNG)
 
-B)
+B) ![Uma imagem](assets/ex04_2.PNG)
 
-C)
+C) ![Uma imagem](assets/ex04_3.PNG)
 
-D)
+D) ![Uma imagem](assets/ex04_4.PNG)
 
 ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-A)
+A) ![Uma imagem](assets/ex05_1.PNG)
 
-B) 
+B) ![Uma imagem](assets/ex05_2.PNG)
 
-C) 
+C) ![Uma imagem](assets/ex05_3.PNG)
 
-D)
+D) ![Uma imagem](assets/ex05_4.PNG)
 
 ______
 
 **6)** Observe o código abaixo:
 
-
+![Uma imagem](assets/ex06.PNG)
 
 Qual será a saída do código acima?
 
