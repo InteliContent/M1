@@ -183,13 +183,17 @@ B)
 Compra 1 aprovada. Saldo restante: 800
 
 Compra 2 aprovada com limite de crédito. Saldo restante: 700
+
 Compra 3 aprovada. Saldo restante: 400
+
 Compra 4 aprovada com limite de crédito. Saldo restante: 0
+
 Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
 
 
 C)
 Compra 1 aprovada. Saldo restante: 800
+
 Compra 2 aprovada com limite de crédito. Saldo restante: 700
 
 Compra 3 aprovada. Saldo restante: 400
