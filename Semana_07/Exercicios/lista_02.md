@@ -135,9 +135,9 @@ A) O código verifica se o número é divisível por 3 e, se for, exibe a mensag
 
 B) O código verifica se o número é par ou ímpar. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!".
 
-C) O código verifica se o número é par e se é divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!".
+C) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!". Se for ímpar, exibe a mensagem "O número é ímpar e não é divisível por 3!".
 
-D) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!".
+D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".
 
 
 ______
@@ -184,9 +184,9 @@ Compra 1 aprovada. Saldo restante: 800
 
 Compra 2 aprovada com limite de crédito. Saldo restante: 700
 
-Compra 3 aprovada. Saldo restante: 400
+Compra 3 aprovada. Saldo restante: 200
 
-Compra 4 aprovada com limite de crédito. Saldo restante: 0
+Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
 
@@ -205,11 +205,11 @@ D)
 
 Compra 1 aprovada. Saldo restante: 800
 
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
+Compra 2 aprovada com limite de crédito. Saldo restante: 0
 
-Compra 3 aprovada. Saldo restante: 400
+Compra 3 aprovada. Saldo restante: 200
 
-Compra 4 aprovada. Saldo restante: 0
+Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
 
