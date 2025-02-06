@@ -30,7 +30,9 @@
 *Adicione aqui a **imagem da tela digital finalizada** ou o **link para o arquivo**.*  
 
 *- Como o concept foi adaptado para o formato digital?*
+
 *- Quais elementos visuais foram aprimorados?*  
+
 *- O uso de cores, formas e layout foi pensado para reforçar que aspectos do jogo?*  
 
 ---
