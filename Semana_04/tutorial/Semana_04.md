@@ -13,7 +13,7 @@ Na primeira parte desta atividade você vai visitar o **Tutorial Oficial do Phas
 
 Agora que você já realizou pelo menos 3 exercícios usando o Phaser e estruturando alguns arquivos, **realize o tutorial disponível no site do Phaser**. É um tutorial dividido em 10 etapas que guia a construção de um jogo de plataforma com plano de fundo, plataformas, personagem, placar, estrelas, bombas e diferentes dificuldades. 
 
-Acesse aqui: [Tutorial Phaser (português de portugal)](https://phaser.io/tutorials/making-your-first-phaser-3-game-portuguese) ou [Tutorial Phaser (inglês)](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1). 
+Acesse aqui: [Tutorial Phaser](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1). 
 
 Siga as etapas indicadas no Tutorial Phaser e realize o jogo. Você deve conseguir realizar um jogo como o da imagem a seguir. 
 
