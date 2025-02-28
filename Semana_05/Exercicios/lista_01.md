@@ -131,8 +131,7 @@ c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
 d) A primeira afirmação é falsa, e a segunda é verdadeira.
 ______
-
-**7) Dado o seguinte código:**
+**7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
 ```javascript
 class Pessoa {
@@ -159,13 +158,12 @@ class Funcionario extends Pessoa {
 }
 ```
 
-Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
 I) A classe Funcionario herda de Pessoa e pode acessar os atributos nome e idade diretamente.  
 II) O método `apresentar()` da classe Funcionario sobrepõe o método `apresentar()` da classe Pessoa, mas chama o método da classe pai usando `super`.  
 III) O código não funciona corretamente, pois Funcionario não pode herdar de Pessoa como uma classe, já que o JavaScript não suporta herança de classes.
 
-Escolha a alternativa correta:
+Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
 a) I e II são verdadeiras.
 
@@ -177,12 +175,10 @@ d) Apenas I é verdadeira.
 
 ______
 
-**8) Analise as afirmações a seguir:**
+**8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
 
 **Asserção:** O conceito de polimorfismo em Programação Orientada a Objetos permite que objetos de diferentes tipos respondam à mesma mensagem de maneiras diferentes.  
 **Razão:** Em JavaScript, o polimorfismo pode ser implementado utilizando o método de sobrecarga de métodos em uma classe.
-
-Escolha a alternativa correta:
 
 a) A asserção é falsa e a razão é verdadeira.
 
