@@ -178,6 +178,7 @@ d) Apenas I é verdadeira.
 ______
 
 **8) Analise as afirmações a seguir:**
+
 **Asserção:** O conceito de polimorfismo em Programação Orientada a Objetos permite que objetos de diferentes tipos respondam à mesma mensagem de maneiras diferentes.  
 **Razão:** Em JavaScript, o polimorfismo pode ser implementado utilizando o método de sobrecarga de métodos em uma classe.
 
