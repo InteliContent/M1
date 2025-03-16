@@ -115,29 +115,25 @@ ______
 **3)** Considere o seguinte trecho de código em JavaScript:
 ```javascript
 //EX03
-const numero = 10;
+const idade = 21;
 
-if (numero % 2 === 0) {
-  console.log("O número é par!");
-} else if (numero % 3 === 0) {
-  console.log("O número é divisível por 3!");
+if (idade >= 18 && idade < 60) {
+  console.log("Você é um adulto!");
+} else if (idade < 18) {
+  console.log("Você é menor de idade!");
 } else {
-  console.log("O número é ímpar e não é divisível por 3!");
+  console.log("Você está na melhor idade!");
 }
 ```
+Qual das seguintes alternativas melhor descreve o comportamento do código?
 
- Qual das seguintes alternativas é a descrição mais precisa do que o código faz?
+A) O código verifica se a idade indica um adulto ou um idoso e exibe a mensagem correspondente.
 
+B) O código verifica se a idade pertence à faixa adulta. Se for, exibe "Você é um adulto!". Caso contrário, verifica se é menor de idade e exibe "Você é menor de idade!". Se nenhuma das condições anteriores for verdadeira, exibe "Você está na melhor idade!".
 
-A) O código verifica se o número é divisível por 3 e, se for, exibe a mensagem "O número é divisível por 3!".
+C) O código verifica se a idade está entre 18 e 60 anos e, se for, imprime "Você é um adulto!". Se não estiver nesse intervalo, imprime "Você está na melhor idade!".
 
-B) O código verifica se o número é par ou ímpar. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!".
-
-C) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!". Se for ímpar, exibe a mensagem "O número é ímpar e não é divisível por 3!".
-
-D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".
-
-
+D) O código verifica se a idade é menor de 18, entre 18 e 60 ou acima de 60, imprimindo uma mensagem específica para cada caso.
 ______
 
 **4)** Qual será o resultado impresso no console após a execução desse código?
