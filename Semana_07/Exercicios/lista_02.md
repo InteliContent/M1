@@ -52,67 +52,64 @@ D) O código avalia a expressão booleana, imprime `false` e ordena os valores e
 
 ______
 
-**2)** Analise as funções calcularOrcamento() e calcularOrcamento2(). Num cenário em que a lista gastos fosse incializada como var gastos = [3600, 950, 620, 38] em ambas funções.
+**2)** O código a seguir contém duas funções que calculam o limite de crédito de um cliente com base nos seus gastos e na renda mensal.
 
 ```javascript
-//Versão 1 da função que calcula orçamento
-function calculaOrcamento(){
-
-    var gastos = [1800, 950, 620, 38];
-    var totalGastos = gastos[0];
-    var salario = 3500;
-    var saldo = 0; 
-    var statusSaldo =  'positivo';
+// Versão 1 da função de análise de crédito
+function analisarCredito1() {
+    var compras = [2500, 1200, 800, 100];
+    var totalCompras = compras[0];
+    var limite = 5000;
+    var status = 'aprovado';
+    var saldoDisponivel = 0;
     var i = 1;
 
-    do{
-        totalGastos += gastos[i];
+    do {
+        totalCompras += compras[i];
         i++;
-    } while(salario >= totalGastos && i<gastos.length)
-    
-    saldo = salario - totalGastos;
+    } while (limite >= totalCompras && i < compras.length);
 
-    if (saldo < 0 ){
-        statusSaldo = 'negativo';
-    } 
-    console.log (`Seu saldo é ${statusSaldo} de ${saldo}. `);
+    saldoDisponivel = limite - totalCompras;
+
+    if (saldoDisponivel < 0) {
+        status = 'negado';
+    }
+    console.log(`Seu crédito foi ${status}. Saldo disponível: ${saldoDisponivel}.`);
 }
 ```
 
 ```javascript
-//Versão 2 da função que calcula orçamento
-function calculaOrcamento2(){
-
-    var gastos = [1800, 950, 620, 38];
-    var totalGastos = gastos[0];
-    var salario = 3500;
-    var statusSaldo =  'positivo';
-    var saldo = 0;
+// Versão 2 da função de análise de crédito
+function analisarCredito2() {
+    var compras = [2500, 1200, 800, 100];
+    var totalCompras = compras[0];
+    var limite = 5000;
+    var status = 'aprovado';
+    var saldoDisponivel = 0;
     var i = 1;
 
-    while(salario >= totalGastos && i<gastos.length){
-        totalGastos += gastos[i];
+    while (limite >= totalCompras && i < compras.length) {
+        totalCompras += compras[i];
         i++;
     }
 
-    saldo = salario - totalGastos;
-    if (saldo < 0 ){
-        statusSaldo = 'negativo';
-    } 
-    console.log (`Seu saldo é ${statusSaldo} de ${saldo}. `);
+    saldoDisponivel = limite - totalCompras;
+
+    if (saldoDisponivel < 0) {
+        status = 'negado';
+    }
+    console.log(`Seu crédito foi ${status}. Saldo disponível: ${saldoDisponivel}.`);
 }
 ```
+Se ambas as funções forem executadas com os valores fornecidos, qual será a saída exibida no console?
 
-Escolha a opção que responde corretamente qual seria a saída após a execução de cada função:
+A) Ambas as funções exibirão: 'Seu crédito foi negado. Saldo disponível: -600.'
 
-A) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -1050.'
+B) analisarCredito1() exibirá: 'Seu crédito foi negado. Saldo disponível: -600.', enquanto analisarCredito2() exibirá: 'Seu crédito foi negado. Saldo disponível: -200.'
 
-B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'
+C) analisarCredito1() exibirá: 'Seu crédito foi negado. Saldo disponível: -200.', enquanto analisarCredito2() exibirá: 'Seu crédito foi negado. Saldo disponível: -600.'
 
-C) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -100.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -1050.'
-
-D) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -100.'
-
+D) Ambas as funções exibirão: 'Seu crédito foi negado. Saldo disponível: -200.'
 ______
 
 **3)** Considere o seguinte trecho de código em JavaScript:
