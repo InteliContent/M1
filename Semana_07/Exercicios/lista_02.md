@@ -218,17 +218,17 @@ C) O método update() renderiza todos os sprites na tela e garante que a física
 D) O método update() é chamado apenas uma vez após a criação da cena, sendo utilizado para configurar variáveis iniciais do jogo.
 ______
 
-**6)** Qual é o objetivo principal do módulo Arcade Physics em Phaser.js?
+**6)** Qual é o principal objetivo do módulo Matter.js Physics em Phaser.js?
 
 Escolha a opção que responde corretamente:
 
-A) Renderizar gráficos 3D para jogos em HTML5.
+A) Simular física avançada, incluindo corpos rígidos, colisões complexas e interação entre objetos com gravidade e forças.
 
-B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
+B) Gerenciar eventos de entrada do usuário, como cliques e toques na tela, permitindo movimentação de personagens.
 
-C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
+C) Renderizar gráficos otimizados para jogos 2D e garantir uma taxa de quadros estável.
 
-D) Gerenciar a lógica do jogo e a sincronização de eventos em jogos multiplayer.
+D) Criar animações automáticas para sprites e objetos interativos sem necessidade de programação de movimentação.
 
 ______
 
