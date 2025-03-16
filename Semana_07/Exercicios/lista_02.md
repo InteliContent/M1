@@ -136,25 +136,25 @@ C) O código verifica se a idade está entre 18 e 60 anos e, se for, imprime "Vo
 D) O código verifica se a idade é menor de 18, entre 18 e 60 ou acima de 60, imprimindo uma mensagem específica para cada caso.
 ______
 
-**4)** Qual será o resultado impresso no console após a execução desse código?
+**4)** Qual será o resultado impresso no console após a execução do seguinte código?
 ```javascript
 //EX04
-var saldo = 1000;
-var limiteCredito = 500;
-var valorCompras = [200, 800, 300, 400, 600];
+var energiaDisponivel = 1200;
+var bateriaExtra = 400;
+var consumoDispositivos = [300, 600, 500, 200, 400];
 
-for (var i = 0; i < valorCompras.length; i++) {
-    var valorCompra = valorCompras[i];
+for (var i = 0; i < consumoDispositivos.length; i++) {
+    var consumo = consumoDispositivos[i];
 
-    if (valorCompra <= saldo) {
-        console.log("Compra " + (i+1) + " aprovada. Saldo restante: " + (saldo - valorCompra));
-        saldo -= valorCompra;
-    } else if (valorCompra <= saldo + limiteCredito) {
-        console.log("Compra " + (i+1) + " aprovada com limite de crédito. Saldo restante: " + ((saldo + limiteCredito) - valorCompra));
-        saldo = 0;
-        limiteCredito -= (valorCompra - saldo);
+    if (consumo <= energiaDisponivel) {
+        console.log("Dispositivo " + (i+1) + " ligado. Energia restante: " + (energiaDisponivel - consumo));
+        energiaDisponivel -= consumo;
+    } else if (consumo <= energiaDisponivel + bateriaExtra) {
+        console.log("Dispositivo " + (i+1) + " ligado com bateria extra. Energia restante: " + ((energiaDisponivel + bateriaExtra) - consumo));
+        energiaDisponivel = 0;
+        bateriaExtra -= (consumo - energiaDisponivel);
     } else {
-        console.log("Compra " + (i+1) + " negada. Saldo insuficiente e limite de crédito excedido.");
+        console.log("Dispositivo " + (i+1) + " não pode ser ligado. Energia insuficiente.");
     }
 }
 ```
@@ -162,50 +162,46 @@ for (var i = 0; i < valorCompras.length; i++) {
 Escolha a opção que responde corretamente:
 
 A)
-Compra 1 aprovada. Saldo restante: 800
+Dispositivo 1 ligado. Energia restante: 900
 
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
+Dispositivo 2 ligado com bateria extra. Energia restante: 700
 
-Compra 3 aprovada. Saldo restante: 400
+Dispositivo 3 ligado. Energia restante: 200
 
-Compra 4 aprovada com limite de crédito. Saldo restante: 0
+Dispositivo 4 ligado com bateria extra. Energia restante: 0
 
-Compra 5 aprovada. Saldo restante: -200
-
+Dispositivo 5 ligado. Energia restante: -200
 
 B)
-Compra 1 aprovada. Saldo restante: 800
+Dispositivo 1 ligado. Energia restante: 900
 
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
+Dispositivo 2 ligado com bateria extra. Energia restante: 700
 
-Compra 3 aprovada. Saldo restante: 200
+Dispositivo 3 ligado. Energia restante: 200
 
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
+Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
-Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
-
+Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
 C)
-Compra 1 aprovada. Saldo restante: 800
+Dispositivo 1 ligado. Energia restante: 900
 
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
+Dispositivo 2 ligado com bateria extra. Energia restante: 700
 
-Compra 3 aprovada. Saldo restante: 400
+Dispositivo 3 ligado. Energia restante: 400
 
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
+Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
 D)
+Dispositivo 1 ligado. Energia restante: 900
 
-Compra 1 aprovada. Saldo restante: 800
+Dispositivo 2 ligado. Energia restante: 300
 
-Compra 2 aprovada. Saldo restante: 0
+Dispositivo 3 ligado com bateria extra. Energia restante: 200
 
-Compra 3 aprovada com limite de crédito. Saldo restante: 200
+Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
-Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
+Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
 ______
 
