@@ -205,17 +205,17 @@ Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
 ______
 
-**5)** Qual é o principal ciclo de vida de um jogo em Phaser.js?
+**5)** Qual é a principal função do método update() em um jogo desenvolvido com Phaser.js?
 
-Escolha a opção que responde corretamente:
+Escolha a opção que melhor descreve seu propósito:
 
-A) Setup -> Update -> Draw
+A) O método update() é responsável por carregar os assets do jogo antes da cena ser exibida.
 
-B) Preload -> Create -> Update
+B) O método update() é chamado continuamente a cada quadro (frame) do jogo, sendo usado para atualizar a lógica, movimentação e interações dos objetos na cena.
 
-C) Load -> Initialize -> Render
+C) O método update() renderiza todos os sprites na tela e garante que a física do jogo seja processada corretamente.
 
-D) Begin -> Play -> End
+D) O método update() é chamado apenas uma vez após a criação da cena, sendo utilizado para configurar variáveis iniciais do jogo.
 ______
 
 **6)** Qual é o objetivo principal do módulo Arcade Physics em Phaser.js?
