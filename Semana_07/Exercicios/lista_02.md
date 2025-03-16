@@ -21,32 +21,33 @@ print(a)
 
 ```javascript
 //EX01
-let x = 17
-let y = 5
-let z = 8
+let p = 10;
+let q = 3;
+let r = 6;
 
-resultadoBooleano =  (x < y) && (z > x) || (x - y > z)
-console.log(resultadoBooleano)
+let resultado = (p % q === 1) && (r * 2 > p) || (q + r < p);
+console.log(resultado);
 
-const listaDeNumeros = [1, 2, 3, 4, 5];
-let soma = 0;
+const valores = [3, 6, 9, 12, 15];
+let produto = 1;
 
-for (let i = 0; i < listaDeNumeros.length; i++) {
-  soma += listaDeNumeros[i];
+for (let j = 0; j < valores.length; j++) {
+  produto *= valores[j];
 }
 
-console.log("A soma dos números é:", soma);
+console.log("O produto dos valores é:", produto);
+
 
 ```
 Qual das seguintes alternativas melhor descreve o que o código faz?
 
-A) O código avalia a expressão booleana, imprime o resultado `false`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+A) O código avalia a expressão booleana, imprime `true`, calcula o produto dos números na lista e imprime o resultado no console.
 
-B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+B) O código avalia a expressão booleana, imprime `false`, calcula o produto dos números na lista e imprime o resultado no console.
 
-C) O código avalia a expressão booleana, imprime o resultado `true` e verifica se o número 5 está presente na lista de números.
+C) O código avalia a expressão booleana, imprime `true` e, em seguida, verifica se o número 6 está na lista.
 
-D) O código avalia a expressão booleana, imprime o resultado `false` e ordena a lista de números em ordem crescente.
+D) O código avalia a expressão booleana, imprime `false` e ordena os valores em ordem crescente.
 
 
 ______
