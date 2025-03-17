@@ -1,4 +1,4 @@
-# Preparacão dos Testes de Jogabilidade
+# Preparação dos Testes de Jogabilidade
 Os testes de jogabilidade são fundamentais para garantir a qualidade e a experiência do usuário. Eles servem para validar requisitos, identificar problemas e aperfeiçoar a mecânica do jogo. Ao realizar testes, podemos verificar se o jogo está funcionando conforme esperado e se atende às expectativas dos jogadores.
 
 ---
@@ -13,7 +13,7 @@ Os testes com Público-Alvo deverão acontecer de maneira remota entre as semana
 ## Parte 1: Testes de Guerrilha
 Os testes de guerrilha são uma abordagem rápida e acessível para avaliar a usabilidade de um jogo. O objetivo é observar como diferentes usuários interagem com o jogo e identificar pontos de melhoria na interface, mecânicas e experiência geral do jogador.
 
-### Testes de Guerrilha com Colegas
+### Testes de Guerrilha
 Realizaremos testes presenciais durante a instrução de UX da Semana 09. Os testadores serão outros alunos, seus colegas. Serão nossos testes de guerrilha. Nesse momento, poderemos **observar** como a experiência ocorre para aquele usuário. Sem explicações adicionais, será que ele consegue entender o contexto? Ele parece entender como jogar? O objetivo do jogo ficou claro?
 
 Durante essa fase, o foco será:
